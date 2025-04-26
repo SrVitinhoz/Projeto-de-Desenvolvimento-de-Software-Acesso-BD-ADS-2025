@@ -6,5 +6,5 @@ public class Evento
     public int ValorSonhos { get; set; }
     public DateTime DataInicio { get; set; }
     public DateTime DataFim { get; set; }
-    public string Status { get; set; } REM ENUM: ativo, encerrado
+    public string Status { get; set; } //REM ENUM: ativo, encerrado
 }
