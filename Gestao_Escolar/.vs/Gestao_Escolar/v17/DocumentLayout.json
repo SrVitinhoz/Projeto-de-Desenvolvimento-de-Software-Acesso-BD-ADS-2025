@@ -26,8 +26,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -51,8 +59,7 @@
               "RelativeToolTip": "DbContext\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:26:15.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:26:15.122Z"
             },
             {
               "$type": "Document",
@@ -64,29 +71,19 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:24:55.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T20:24:55.755Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Gestao_Escolar",
+              "Title": "Gestao_Escolar.csproj",
               "DocumentMoniker": "C:\\Users\\Gud Gud\\OneDrive\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
               "RelativeDocumentMoniker": "Gestao_Escolar.csproj",
               "ToolTip": "C:\\Users\\Gud Gud\\OneDrive\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
               "RelativeToolTip": "Gestao_Escolar.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T20:22:56.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-04-26T20:22:56.539Z"
             }
           ]
         }
