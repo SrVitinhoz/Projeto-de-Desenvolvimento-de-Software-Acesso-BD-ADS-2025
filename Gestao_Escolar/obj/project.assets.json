@@ -3256,23 +3256,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gud Gud\\.nuget\\packages\\": {},
+    "C:\\Users\\Victor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gud Gud\\OneDrive\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
+      "projectUniqueName": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
       "projectName": "Gestao_Escolar",
-      "projectPath": "C:\\Users\\Gud Gud\\OneDrive\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
-      "packagesPath": "C:\\Users\\Gud Gud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gud Gud\\OneDrive\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\obj\\",
+      "projectPath": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gud Gud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

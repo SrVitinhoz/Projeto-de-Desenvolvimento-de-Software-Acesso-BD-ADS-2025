@@ -1,13 +1,16 @@
-CREATE DATABASE Gestao_Escolar;
-use Gestao_Escolar;
+CREATE DATABASE BD_Gestao_Escolar;
+use BD_Gestao_Escolar;
 CREATE TABLE Turma (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL
+  nome VARCHAR(100) NOT NULL,
+  status ENUM('ativo', 'desligado') NOT NULL,
+  periodo ENUM('vespertino', 'matutino') NOT NULL
 );
 
 CREATE TABLE Materia (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL
+  nome VARCHAR(100) NOT NULL,
+  status ENUM('ativo', 'desligado') NOT NULL
 );
 
 CREATE TABLE Funcionario (
@@ -15,17 +18,23 @@ CREATE TABLE Funcionario (
   nome VARCHAR(100) NOT NULL,
   cpf VARCHAR(14) NOT NULL UNIQUE,
   cargo ENUM('professor', 'administrativo') NOT NULL,
-  status ENUM('ativo', 'demitido') NOT NULL
+  status ENUM('ativo', 'desligado') NOT NULL,
+  data_adimicao DATETIME NOT NULL,
+  data_desligamento DATETIME,
+  materia_id INT,
+  FOREIGN KEY (materia_id) REFERENCES Materia(id)
 );
 
 CREATE TABLE Aluno (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
-  data_nascimento DATE NOT NULL,
-  foto_url VARCHAR(255),
+  data_nascimento DATETIME NOT NULL,
+  foto_url BLOB,
   turma_id INT,
-  status_matricula ENUM('ativo', 'inativo') NOT NULL,
+  status_matricula ENUM('ativo', 'desligado', 'inativa') NOT NULL,
   saldo_sonhos INT DEFAULT 0,
+  num_matricula int not null,
+  periodo ENUM('matutino', 'vespertino') not null,
   FOREIGN KEY (turma_id) REFERENCES Turma(id)
 );
 
@@ -44,6 +53,8 @@ CREATE TABLE ParticipacaoEvento (
   aluno_id INT NOT NULL,
   evento_id INT NOT NULL,
   participou BOOLEAN DEFAULT FALSE,
+  aluno_turma VARCHAR(255),
+  aluno_periodo VARCHAR(255),
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (evento_id) REFERENCES Evento(id)
 );
@@ -54,6 +65,7 @@ CREATE TABLE Chamada (
   turma_id INT NOT NULL,
   materia_id INT NOT NULL,
   data DATE NOT NULL,
+  periodo ENUM('matutino', 'vespertino') not null,
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id),
   FOREIGN KEY (turma_id) REFERENCES Turma(id),
   FOREIGN KEY (materia_id) REFERENCES Materia(id)
@@ -63,7 +75,8 @@ CREATE TABLE ChamadaAluno (
   id INT AUTO_INCREMENT PRIMARY KEY,
   chamada_id INT NOT NULL,
   aluno_id INT NOT NULL,
-  status ENUM('presente', 'ausente') NOT NULL,
+  status ENUM('presente', 'ausente', 'justificado') NOT NULL,
+  observacao varchar(255),
   FOREIGN KEY (chamada_id) REFERENCES Chamada(id),
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id)
 );
@@ -96,10 +109,9 @@ CREATE TABLE TransferenciaTurma (
 CREATE TABLE Matricula (
   id INT AUTO_INCREMENT PRIMARY KEY,
   aluno_id INT NOT NULL,
-  ano_letivo INT NOT NULL,
-  status ENUM('ativa', 'cancelada', 'transferida') NOT NULL,
-  data_inicio DATE NOT NULL,
-  data_fim DATE,
+  data DATETIME NOT NULL,
+  status ENUM('ativa', 'desligada', 'inativa') NOT NULL,
+  descricao VARCHAR(255) NOT NULL,
   funcionario_id INT,
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)

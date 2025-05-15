@@ -34,3 +34,14 @@ C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Soft
 C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
 C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
 C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.AssemblyReference.cache
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.GeneratedMSBuildEditorConfig.editorconfig
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfoInputs.cache
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfo.cs
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.CoreCompileInputs.cache
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cs
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cache
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.sourcelink.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb

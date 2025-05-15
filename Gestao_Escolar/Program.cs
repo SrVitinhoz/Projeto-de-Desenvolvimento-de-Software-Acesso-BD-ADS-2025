@@ -19,6 +19,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     .UseSnakeCaseNamingConvention() // Adiciona a convenção de nomenclatura snake_case
     );
 
+//adicionar o nome de cada serviço
+//builder.Services.AddScoped<FilmeService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

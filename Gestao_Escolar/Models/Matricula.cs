@@ -1,10 +1,36 @@
-public class Matricula
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GestaoEscolar.Models
 {
-    public int IdMatricula { get; set; }
-    public int AlunoId { get; set; }
-    public int AnoLetivo { get; set; }
-    public string Status { get; set; }    //REM ENUM: ativa, cancelada, transferida
-    public DateTime DataInicio { get; set; }
-    public DateTime? DataFim { get; set; }
-    public int? FuncionarioId { get; set; }
+    public class Matricula
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public int AlunoId { get; set; }
+
+        [Required]
+        [Column(TypeName = "datetime")]
+        public DateTime Data { get; set; }
+
+        [Required]
+        [Column(TypeName = "enum('ativa', 'desligada', 'inativa')")]
+        public string Status { get; set; }
+
+        [Required]
+        [StringLength(255)]
+        public string Descricao { get; set; }
+
+        public int? FuncionarioId { get; set; }
+
+        // Propriedades de navegação
+        [ForeignKey("AlunoId")]
+        public virtual Aluno Aluno { get; set; }
+
+        [ForeignKey("FuncionarioId")]
+        public virtual Funcionario Funcionario { get; set; }
+    }
 }

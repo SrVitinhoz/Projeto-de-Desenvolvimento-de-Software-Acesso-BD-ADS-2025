@@ -1,9 +1,38 @@
-public class TransferenciaTurma
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GestaoEscolar.Models
 {
-    public int IdTransferenciaTurma { get; set; }
-    public int AlunoId { get; set; }
-    public int? TurmaOrigemId { get; set; }
-    public int? TurmaDestinoId { get; set; }
-    public DateTime DataTransferencia { get; set; }
-    public int? FuncionarioId { get; set; }
+    public class TransferenciaTurma
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public int AlunoId { get; set; }
+
+        public int? TurmaOrigemId { get; set; }
+
+        public int? TurmaDestinoId { get; set; }
+
+        [Required]
+        [Column(TypeName = "date")]
+        public DateTime DataTransferencia { get; set; }
+
+        public int? FuncionarioId { get; set; }
+
+        // Propriedades de navegação
+        [ForeignKey("AlunoId")]
+        public virtual Aluno Aluno { get; set; }
+
+        [ForeignKey("TurmaOrigemId")]
+        public virtual Turma TurmaOrigem { get; set; }
+
+        [ForeignKey("TurmaDestinoId")]
+        public virtual Turma TurmaDestino { get; set; }
+
+        [ForeignKey("FuncionarioId")]
+        public virtual Funcionario Funcionario { get; set; }
+    }
 }
