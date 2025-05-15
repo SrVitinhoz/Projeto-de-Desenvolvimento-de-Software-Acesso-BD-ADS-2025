@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "H:\\Meu Drive\\ADS - Per\u00EDodos\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|h:\\meu drive\\ads - per\u00EDodos\\ads 5\u00BA\\acesso a bd\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|h:\\meu drive\\ads - per\u00EDodos\\ads 5\u00BA\\acesso a bd\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|h:\\meu drive\\ads - per\u00EDodos\\ads 5\u00BA\\acesso a bd\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|h:\\meu drive\\ads - per\u00EDodos\\ads 5\u00BA\\acesso a bd\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\gestao_escolar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,32 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "H:\\Meu Drive\\ADS - Per\u00EDodos\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DbContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DbContext\\AppDbContext.cs",
               "ToolTip": "H:\\Meu Drive\\ADS - Per\u00EDodos\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DbContext\\AppDbContext.cs",
               "RelativeToolTip": "DbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA7wBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T13:13:21.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\Meu Drive\\ADS - Per\u00EDodos\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\Meu Drive\\ADS - Per\u00EDodos\\ADS 5\u00BA\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:24:55.755Z"
+              "WhenOpened": "2025-04-26T20:24:55.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
