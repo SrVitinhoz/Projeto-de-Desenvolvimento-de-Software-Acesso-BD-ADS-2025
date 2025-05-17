@@ -1,88 +1,76 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de Funcionario
-    public class FuncionarioCreateDTO
-    {
-        [Required]
-        public string Nome { get; set; }
-        
-        [Required]
-        public string CPF { get; set; }
-        
-        [Required]
-        public DateTime DataNascimento { get; set; }
-        
-        [Required]
-        public string Endereco { get; set; }
-        
-        [Required]
-        public string Telefone { get; set; }
-        
-        [Required]
-        public string Email { get; set; }
-        
-        [Required]
-        public string Cargo { get; set; }
-        
-        [Required]
-        public DateTime DataContratacao { get; set; }
-        
-        public string Formacao { get; set; }
-        
-        public string Especializacao { get; set; }
-    }
-    
-    // DTO para atualização de Funcionario
-    public class FuncionarioUpdateDTO
-    {
-        public string Nome { get; set; }
-        
-        public string Endereco { get; set; }
-        
-        public string Telefone { get; set; }
-        
-        public string Email { get; set; }
-        
-        public string Cargo { get; set; }
-        
-        public string Formacao { get; set; }
-        
-        public string Especializacao { get; set; }
-    }
-    
-    // DTO para exibição de Funcionario
     public class FuncionarioDTO
     {
         public int Id { get; set; }
-        
-        public string Nome { get; set; }
-        
-        public string CPF { get; set; }
-        
-        public DateTime DataNascimento { get; set; }
-        
-        public string Endereco { get; set; }
-        
-        public string Telefone { get; set; }
-        
-        public string Email { get; set; }
-        
-        public string Cargo { get; set; }
-        
-        public DateTime DataContratacao { get; set; }
-        
-        public string Formacao { get; set; }
-        
-        public string Especializacao { get; set; }
-        
-        public List<TurmaDTO> Turmas { get; set; }
-        
-        public List<MateriaDTO> Materias { get; set; }
-        
-        public List<EventoDTO> EventosCriados { get; set; }
+
+        [Required(ErrorMessage = "O nome do funcionário é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "O CPF do funcionário é obrigatório")]
+        [StringLength(14, ErrorMessage = "O CPF deve ter 14 caracteres")]
+        public string Cpf { get; set; } = null!;
+
+        [Required(ErrorMessage = "O cargo do funcionário é obrigatório")]
+        public string Cargo { get; set; } = null!;
+
+        [Required(ErrorMessage = "O status do funcionário é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de admissão é obrigatória")]
+        public DateTime DataAdmissao { get; set; }
+
+        public DateTime? DataDesligamento { get; set; }
+
+        public int? MateriaId { get; set; }
+
+        public string? MateriaNome { get; set; }
+    }
+
+    public class FuncionarioCreateDTO
+    {
+        [Required(ErrorMessage = "O nome do funcionário é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "O CPF do funcionário é obrigatório")]
+        [StringLength(14, ErrorMessage = "O CPF deve ter 14 caracteres")]
+        public string Cpf { get; set; } = null!;
+
+        [Required(ErrorMessage = "O cargo do funcionário é obrigatório")]
+        public string Cargo { get; set; } = null!;
+
+        [Required(ErrorMessage = "O status do funcionário é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de admissão é obrigatória")]
+        public DateTime DataAdmissao { get; set; }
+
+        public DateTime? DataDesligamento { get; set; }
+
+        public int? MateriaId { get; set; }
+    }
+
+    public class FuncionarioUpdateDTO
+    {
+        [Required(ErrorMessage = "O nome do funcionário é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "O cargo do funcionário é obrigatório")]
+        public string Cargo { get; set; } = null!;
+
+        [Required(ErrorMessage = "O status do funcionário é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de admissão é obrigatória")]
+        public DateTime DataAdmissao { get; set; }
+
+        public DateTime? DataDesligamento { get; set; }
+
+        public int? MateriaId { get; set; }
     }
 }

@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Gestao_Escolar.Models;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class Aluno
     {
@@ -12,38 +11,42 @@ namespace GestaoEscolar.Models
 
         [Required]
         [StringLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "datetime")]
         public DateTime DataNascimento { get; set; }
 
-        public byte[] FotoUrl { get; set; }
+        public byte[]? FotoUrl { get; set; }
 
         public int? TurmaId { get; set; }
 
-        [Required]
-        [Column(TypeName = "enum('ativo', 'desligado', 'inativa')")]
-        public string StatusMatricula { get; set; }
+        [ForeignKey("TurmaId")]
+        public virtual Turma? Turma { get; set; }
 
         [Required]
-        [DefaultValue(0)]
-        public int SaldoSonhos { get; set; }
+        public StatusMatricula StatusMatricula { get; set; }
+
+        [Required]
+        public int SaldoSonhos { get; set; } = 0;
 
         [Required]
         public int NumMatricula { get; set; }
 
         [Required]
-        [Column(TypeName = "enum('matutino', 'vespertino')")]
-        public string Periodo { get; set; }
+        public PeriodoTurma Periodo { get; set; }
 
         // Propriedades de navegação
-        [ForeignKey("TurmaId")]
-        public virtual Turma Turma { get; set; }
-        public virtual ICollection<ParticipacaoEvento> ParticipacaoEventos { get; set; }
-        public virtual ICollection<ChamadaAluno> ChamadasAluno { get; set; }
-        public virtual ICollection<HistoricoSonhos> HistoricoSonhos { get; set; }
-        public virtual ICollection<TransferenciaTurma> Transferencias { get; set; }
-        public virtual ICollection<Matricula> Matriculas { get; set; }
+        public virtual ICollection<ParticipacaoEvento>? ParticipacaoEventos { get; set; }
+        public virtual ICollection<ChamadaAluno>? ChamadasAluno { get; set; }
+        public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
+        public virtual ICollection<TransferenciaTurma>? TransferenciasTurma { get; set; }
+        public virtual ICollection<Matricula>? Matriculas { get; set; }
+    }
+
+    public enum StatusMatricula
+    {
+        Ativo,
+        Desligado,
+        Inativa
     }
 }

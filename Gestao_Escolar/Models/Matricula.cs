@@ -1,8 +1,8 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Gestao_Escolar.Models;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class Matricula
     {
@@ -12,25 +12,22 @@ namespace GestaoEscolar.Models
         [Required]
         public int AlunoId { get; set; }
 
+        [ForeignKey("AlunoId")]
+        public virtual Aluno? Aluno { get; set; }
+
         [Required]
-        [Column(TypeName = "datetime")]
         public DateTime Data { get; set; }
 
         [Required]
-        [Column(TypeName = "enum('ativa', 'desligada', 'inativa')")]
-        public string Status { get; set; }
+        public StatusMatricula Status { get; set; }
 
         [Required]
         [StringLength(255)]
-        public string Descricao { get; set; }
+        public string Descricao { get; set; } = null!;
 
         public int? FuncionarioId { get; set; }
 
-        // Propriedades de navegação
-        [ForeignKey("AlunoId")]
-        public virtual Aluno Aluno { get; set; }
-
         [ForeignKey("FuncionarioId")]
-        public virtual Funcionario Funcionario { get; set; }
+        public virtual Funcionario? Funcionario { get; set; }
     }
 }

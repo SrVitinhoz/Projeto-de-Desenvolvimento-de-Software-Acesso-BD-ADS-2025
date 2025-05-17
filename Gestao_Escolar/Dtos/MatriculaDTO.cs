@@ -1,55 +1,53 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de Matricula
-    public class MatriculaCreateDTO
-    {
-        [Required]
-        public int AlunoId { get; set; }
-        
-        [Required]
-        public int TurmaId { get; set; }
-        
-        [Required]
-        public DateTime DataMatricula { get; set; }
-        
-        [Required]
-        public string Status { get; set; } // "Ativa", "Cancelada", "Concluída"
-        
-        public string Observacao { get; set; }
-    }
-    
-    // DTO para atualização de Matricula
-    public class MatriculaUpdateDTO
-    {
-        public string Status { get; set; }
-        
-        public string Observacao { get; set; }
-        
-        public DateTime? DataConclusao { get; set; }
-    }
-    
-    // DTO para exibição de Matricula
     public class MatriculaDTO
     {
         public int Id { get; set; }
-        
+
+        [Required(ErrorMessage = "O ID do aluno é obrigatório")]
         public int AlunoId { get; set; }
-        
-        public string AlunoNome { get; set; }
-        
-        public int TurmaId { get; set; }
-        
-        public string TurmaNome { get; set; }
-        
-        public DateTime DataMatricula { get; set; }
-        
-        public DateTime? DataConclusao { get; set; }
-        
-        public string Status { get; set; }
-        
-        public string Observacao { get; set; }
+
+        public string? AlunoNome { get; set; }
+
+        [Required(ErrorMessage = "A data é obrigatória")]
+        public DateTime Data { get; set; }
+
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A descrição é obrigatória")]
+        [StringLength(255, ErrorMessage = "A descrição deve ter no máximo 255 caracteres")]
+        public string Descricao { get; set; } = null!;
+
+        public int? FuncionarioId { get; set; }
+
+        public string? FuncionarioNome { get; set; }
+    }
+
+    public class MatriculaCreateDTO
+    {
+        [Required(ErrorMessage = "O ID do aluno é obrigatório")]
+        public int AlunoId { get; set; }
+
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A descrição é obrigatória")]
+        [StringLength(255, ErrorMessage = "A descrição deve ter no máximo 255 caracteres")]
+        public string Descricao { get; set; } = null!;
+
+        public int? FuncionarioId { get; set; }
+    }
+
+    public class MatriculaUpdateDTO
+    {
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string Status { get; set; } = null!;
+
+        [Required(ErrorMessage = "A descrição é obrigatória")]
+        [StringLength(255, ErrorMessage = "A descrição deve ter no máximo 255 caracteres")]
+        public string Descricao { get; set; } = null!;
     }
 }

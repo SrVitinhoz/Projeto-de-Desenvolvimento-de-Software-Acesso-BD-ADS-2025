@@ -1,8 +1,7 @@
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class Materia
     {
@@ -11,14 +10,19 @@ namespace GestaoEscolar.Models
 
         [Required]
         [StringLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "enum('ativo', 'desligado')")]
-        public string Status { get; set; }
+        public StatusMateria Status { get; set; }
 
         // Propriedades de navegação
-        public virtual ICollection<Funcionario> Funcionarios { get; set; }
-        public virtual ICollection<Chamada> Chamadas { get; set; }
+        public virtual ICollection<Funcionario>? Funcionarios { get; set; }
+        public virtual ICollection<Chamada>? Chamadas { get; set; }
+    }
+
+    public enum StatusMateria
+    {
+        Ativo,
+        Desligado
     }
 }

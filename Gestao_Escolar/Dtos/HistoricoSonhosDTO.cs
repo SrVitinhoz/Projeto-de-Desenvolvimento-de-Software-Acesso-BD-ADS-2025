@@ -1,50 +1,53 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de HistoricoSonhos
-    public class HistoricoSonhosCreateDTO
-    {
-        [Required]
-        public int AlunoId { get; set; }
-        
-        [Required]
-        public int Quantidade { get; set; }
-        
-        [Required]
-        public string Tipo { get; set; } // "Crédito" ou "Débito"
-        
-        [Required]
-        public string Descricao { get; set; }
-        
-        [Required]
-        public DateTime Data { get; set; }
-    }
-    
-    // DTO para atualização de HistoricoSonhos
-    public class HistoricoSonhosUpdateDTO
-    {
-        public string Descricao { get; set; }
-    }
-    
-    // DTO para exibição de HistoricoSonhos
     public class HistoricoSonhosDTO
     {
         public int Id { get; set; }
-        
+
+        [Required(ErrorMessage = "O ID do aluno é obrigatório")]
         public int AlunoId { get; set; }
-        
-        public string AlunoNome { get; set; }
-        
-        public int Quantidade { get; set; }
-        
-        public string Tipo { get; set; }
-        
-        public string Descricao { get; set; }
-        
+
+        public string? AlunoNome { get; set; }
+
+        [Required(ErrorMessage = "A data é obrigatória")]
         public DateTime Data { get; set; }
-        
-        public int SaldoAposOperacao { get; set; }
+
+        [Required(ErrorMessage = "O tipo de operação é obrigatório")]
+        public string Tipo { get; set; } = null!;
+
+        public string? Motivo { get; set; }
+
+        [Required(ErrorMessage = "O valor é obrigatório")]
+        public int Valor { get; set; }
+
+        public int? FuncionarioId { get; set; }
+
+        public string? FuncionarioNome { get; set; }
+    }
+
+    public class HistoricoSonhosCreateDTO
+    {
+        [Required(ErrorMessage = "O ID do aluno é obrigatório")]
+        public int AlunoId { get; set; }
+
+        [Required(ErrorMessage = "O tipo de operação é obrigatório")]
+        public string Tipo { get; set; } = null!;
+
+        public string? Motivo { get; set; }
+
+        [Required(ErrorMessage = "O valor é obrigatório")]
+        public int Valor { get; set; }
+
+        public int? FuncionarioId { get; set; }
+    }
+
+    public class HistoricoSonhosUpdateDTO
+    {
+        public string? Motivo { get; set; }
+
+        [Required(ErrorMessage = "O valor é obrigatório")]
+        public int Valor { get; set; }
     }
 }

@@ -1,48 +1,57 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de Chamada
-    public class ChamadaCreateDTO
-    {
-        [Required]
-        public DateTime Data { get; set; }
-        
-        [Required]
-        public int MateriaId { get; set; }
-        
-        [Required]
-        public int TurmaId { get; set; }
-        
-        [Required]
-        public List<ChamadaAlunoCreateDTO> PresencasAlunos { get; set; }
-    }
-    
-    // DTO para atualização de Chamada
-    public class ChamadaUpdateDTO
-    {
-        public DateTime? Data { get; set; }
-        
-        public List<ChamadaAlunoUpdateDTO> PresencasAlunos { get; set; }
-    }
-    
-    // DTO para exibição de Chamada
     public class ChamadaDTO
     {
         public int Id { get; set; }
-        
-        public DateTime Data { get; set; }
-        
-        public int MateriaId { get; set; }
-        
-        public string MateriaNome { get; set; }
-        
+
+        [Required(ErrorMessage = "O ID do funcionário é obrigatório")]
+        public int FuncionarioId { get; set; }
+
+        public string? FuncionarioNome { get; set; }
+
+        [Required(ErrorMessage = "O ID da turma é obrigatório")]
         public int TurmaId { get; set; }
-        
-        public string TurmaNome { get; set; }
-        
-        public List<ChamadaAlunoDTO> PresencasAlunos { get; set; }
+
+        public string? TurmaNome { get; set; }
+
+        [Required(ErrorMessage = "O ID da matéria é obrigatório")]
+        public int MateriaId { get; set; }
+
+        public string? MateriaNome { get; set; }
+
+        [Required(ErrorMessage = "A data é obrigatória")]
+        public DateTime Data { get; set; }
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
+    }
+
+    public class ChamadaCreateDTO
+    {
+        [Required(ErrorMessage = "O ID do funcionário é obrigatório")]
+        public int FuncionarioId { get; set; }
+
+        [Required(ErrorMessage = "O ID da turma é obrigatório")]
+        public int TurmaId { get; set; }
+
+        [Required(ErrorMessage = "O ID da matéria é obrigatório")]
+        public int MateriaId { get; set; }
+
+        [Required(ErrorMessage = "A data é obrigatória")]
+        public DateTime Data { get; set; }
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
+    }
+
+    public class ChamadaUpdateDTO
+    {
+        [Required(ErrorMessage = "A data é obrigatória")]
+        public DateTime Data { get; set; }
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
     }
 }

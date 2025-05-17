@@ -1,92 +1,76 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de Aluno
-    public class AlunoCreateDTO
-    {
-        [Required]
-        public string Nome { get; set; }
-        
-        [Required]
-        public string CPF { get; set; }
-        
-        [Required]
-        public DateTime DataNascimento { get; set; }
-        
-        [Required]
-        public string Endereco { get; set; }
-        
-        [Required]
-        public string Telefone { get; set; }
-        
-        [Required]
-        public string Email { get; set; }
-        
-        public string NomeResponsavel { get; set; }
-        
-        public string TelefoneResponsavel { get; set; }
-        
-        public int? TurmaId { get; set; }
-        
-        public int SonhosMoeda { get; set; } = 0;
-    }
-    
-    // DTO para atualização de Aluno
-    public class AlunoUpdateDTO
-    {
-        public string Nome { get; set; }
-        
-        public string Endereco { get; set; }
-        
-        public string Telefone { get; set; }
-        
-        public string Email { get; set; }
-        
-        public string NomeResponsavel { get; set; }
-        
-        public string TelefoneResponsavel { get; set; }
-        
-        public int? TurmaId { get; set; }
-        
-        public int? SonhosMoeda { get; set; }
-    }
-    
-    // DTO para exibição de Aluno
     public class AlunoDTO
     {
         public int Id { get; set; }
-        
-        public string Nome { get; set; }
-        
-        public string CPF { get; set; }
-        
+
+        [Required(ErrorMessage = "O nome do aluno é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         public DateTime DataNascimento { get; set; }
-        
-        public string Endereco { get; set; }
-        
-        public string Telefone { get; set; }
-        
-        public string Email { get; set; }
-        
-        public string NomeResponsavel { get; set; }
-        
-        public string TelefoneResponsavel { get; set; }
-        
+
+        public string? FotoUrl { get; set; }
+
         public int? TurmaId { get; set; }
-        
-        public string TurmaNome { get; set; }
-        
-        public int SonhosMoeda { get; set; }
-        
-        public List<ChamadaAlunoDTO> Chamadas { get; set; }
-        
-        public List<ParticipacaoEventoDTO> Participacoes { get; set; }
-        
-        public List<HistoricoSonhosDTO> HistoricoSonhos { get; set; }
-        
-        public List<TransferenciaTurmaDTO> Transferencias { get; set; }
+
+        public string? TurmaNome { get; set; }
+
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string StatusMatricula { get; set; } = null!;
+
+        public int SaldoSonhos { get; set; }
+
+        [Required(ErrorMessage = "O número de matrícula é obrigatório")]
+        public int NumMatricula { get; set; }
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
+    }
+
+    public class AlunoCreateDTO
+    {
+        [Required(ErrorMessage = "O nome do aluno é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de nascimento é obrigatória")]
+        public DateTime DataNascimento { get; set; }
+
+        public string? FotoUrl { get; set; }
+
+        public int? TurmaId { get; set; }
+
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string StatusMatricula { get; set; } = null!;
+
+        [Required(ErrorMessage = "O número de matrícula é obrigatório")]
+        public int NumMatricula { get; set; }
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
+    }
+
+    public class AlunoUpdateDTO
+    {
+        [Required(ErrorMessage = "O nome do aluno é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        [Required(ErrorMessage = "A data de nascimento é obrigatória")]
+        public DateTime DataNascimento { get; set; }
+
+        public string? FotoUrl { get; set; }
+
+        public int? TurmaId { get; set; }
+
+        [Required(ErrorMessage = "O status da matrícula é obrigatório")]
+        public string StatusMatricula { get; set; } = null!;
+
+        [Required(ErrorMessage = "O período é obrigatório")]
+        public string Periodo { get; set; } = null!;
     }
 }

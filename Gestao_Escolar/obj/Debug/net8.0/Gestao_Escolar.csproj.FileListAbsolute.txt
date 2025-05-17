@@ -1,39 +1,3 @@
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.staticwebassets.endpoints.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.exe
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.deps.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.runtimeconfig.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.pdb
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.AssemblyReference.cache
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfoInputs.cache
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfo.cs
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.CoreCompileInputs.cache
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\scopedcss\bundle\Gestao_Escolar.styles.css
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.Gestao_Escolar.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.Gestao_Escolar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.build.Gestao_Escolar.props
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gestao_Escolar.props
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Gestao_Escolar.props
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_E.A0D70B46.Up2Date
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
-C:\Users\Gud Gud\OneDrive\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.AssemblyReference.cache
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.GeneratedMSBuildEditorConfig.editorconfig
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfoInputs.cache

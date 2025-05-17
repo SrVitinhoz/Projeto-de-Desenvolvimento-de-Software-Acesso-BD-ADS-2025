@@ -1,20 +1,81 @@
+﻿using AutoMapper;
+using Gestao_Escolar.Models;
+using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Gestao_Escolar.DbContext;
+using System.Linq.Expressions;
 
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using GestaoEscolar.Models;
-using GestaoEscolar.DTOs;
-
-namespace GestaoEscolar.Services
+namespace Gestao_Escolar.Services
 {
-    public interface ITurmaService
+    public interface ITurmaService : IBaseService<Turma, TurmaDTO, TurmaCreateDTO, TurmaUpdateDTO>
     {
-        Task<IEnumerable<TurmaDTO>> GetAllAsync();
-        Task<TurmaDTO> GetByIdAsync(int id);
-        Task<TurmaDTO> CreateAsync(TurmaCreateDTO turmaDTO);
-        Task<TurmaDTO> UpdateAsync(int id, TurmaUpdateDTO turmaDTO);
-        Task<bool> DeleteAsync(int id);
-        Task<IEnumerable<TurmaDTO>> GetByStatusAsync(string status);
-        Task<IEnumerable<TurmaDTO>> GetByPeriodoAsync(string periodo);
+        Task<IEnumerable<TurmaDTO>> GetTurmasAtivasByPeriodoAsync(string periodo);
+    }
+
+    public class TurmaService : ITurmaService
+    {
+        private readonly AppDbContext _context;
+        private readonly IMapper _mapper;
+
+        public TurmaService(AppDbContext context, IMapper mapper)
+        {
+            _context = context;
+            _mapper = mapper;
+        }
+
+        public async Task<IEnumerable<TurmaDTO>> GetAllAsync()
+        {
+            var turmas = await _context.Turmas.ToListAsync();
+            return _mapper.Map<IEnumerable<TurmaDTO>>(turmas);
+        }
+
+        public async Task<TurmaDTO?> GetByIdAsync(int id)
+        {
+            var turma = await _context.Turmas.FindAsync(id);
+            return _mapper.Map<TurmaDTO>(turma);
+        }
+
+        public async Task<TurmaDTO> CreateAsync(TurmaCreateDTO createDto)
+        {
+            var turma = _mapper.Map<Turma>(createDto);
+            _context.Turmas.Add(turma);
+            await _context.SaveChangesAsync();
+            return _mapper.Map<TurmaDTO>(turma);
+        }
+
+        public async Task<TurmaDTO?> UpdateAsync(int id, TurmaUpdateDTO updateDto)
+        {
+            var turma = await _context.Turmas.FindAsync(id);
+            if (turma == null) return null;
+
+            _mapper.Map(updateDto, turma);
+            await _context.SaveChangesAsync();
+            return _mapper.Map<TurmaDTO>(turma);
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var turma = await _context.Turmas.FindAsync(id);
+            if (turma == null) return false;
+
+            _context.Turmas.Remove(turma);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<IEnumerable<TurmaDTO>> FindAsync(Expression<Func<Turma, bool>> predicate)
+        {
+            var turmas = await _context.Turmas.Where(predicate).ToListAsync();
+            return _mapper.Map<IEnumerable<TurmaDTO>>(turmas);
+        }
+
+        public async Task<IEnumerable<TurmaDTO>> GetTurmasAtivasByPeriodoAsync(string periodo)
+        {
+            var turmas = await _context.Turmas
+                .Where(t => t.Status == StatusTurma.Ativo && t.Periodo.ToString() == periodo)
+                .ToListAsync();
+            return _mapper.Map<IEnumerable<TurmaDTO>>(turmas);
+        }
     }
 }

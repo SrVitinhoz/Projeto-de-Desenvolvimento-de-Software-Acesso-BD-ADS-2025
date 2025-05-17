@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Gestao_Escolar.Models;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class Funcionario
     {
@@ -12,35 +11,44 @@ namespace GestaoEscolar.Models
 
         [Required]
         [StringLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required]
         [StringLength(14)]
-        public string Cpf { get; set; }
+        public string Cpf { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "enum('professor', 'administrativo')")]
-        public string Cargo { get; set; }
+        public CargoFuncionario Cargo { get; set; }
 
         [Required]
-        [Column(TypeName = "enum('ativo', 'desligado')")]
-        public string Status { get; set; }
+        public StatusFuncionario Status { get; set; }
 
         [Required]
-        [Column(TypeName = "datetime")]
-        public DateTime DataAdimicao { get; set; }
+        public DateTime DataAdmissao { get; set; }
 
-        [Column(TypeName = "datetime")]
         public DateTime? DataDesligamento { get; set; }
 
         public int? MateriaId { get; set; }
 
-        // Propriedades de navegação
         [ForeignKey("MateriaId")]
-        public virtual Materia Materia { get; set; }
-        public virtual ICollection<Chamada> Chamadas { get; set; }
-        public virtual ICollection<HistoricoSonhos> HistoricoSonhos { get; set; }
-        public virtual ICollection<TransferenciaTurma> Transferencias { get; set; }
-        public virtual ICollection<Matricula> Matriculas { get; set; }
+        public virtual Materia? Materia { get; set; }
+
+        // Propriedades de navegação
+        public virtual ICollection<Chamada>? Chamadas { get; set; }
+        public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
+        public virtual ICollection<TransferenciaTurma>? TransferenciasTurma { get; set; }
+        public virtual ICollection<Matricula>? Matriculas { get; set; }
+    }
+
+    public enum CargoFuncionario
+    {
+        Professor,
+        Administrativo
+    }
+
+    public enum StatusFuncionario
+    {
+        Ativo,
+        Desligado
     }
 }

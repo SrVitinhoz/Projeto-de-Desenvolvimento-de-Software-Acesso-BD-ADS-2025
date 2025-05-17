@@ -1,70 +1,69 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestaoEscolar.DTOs
+namespace Gestao_Escolar.DTOs
 {
-    // DTO para criação de Evento
-    public class EventoCreateDTO
-    {
-        [Required]
-        public string Nome { get; set; }
-        
-        [Required]
-        public string Descricao { get; set; }
-        
-        [Required]
-        public DateTime DataInicio { get; set; }
-        
-        [Required]
-        public DateTime DataFim { get; set; }
-        
-        [Required]
-        public string Local { get; set; }
-        
-        [Required]
-        public int FuncionarioId { get; set; }
-        
-        public int? SonhosRecompensa { get; set; }
-    }
-    
-    // DTO para atualização de Evento
-    public class EventoUpdateDTO
-    {
-        public string Nome { get; set; }
-        
-        public string Descricao { get; set; }
-        
-        public DateTime? DataInicio { get; set; }
-        
-        public DateTime? DataFim { get; set; }
-        
-        public string Local { get; set; }
-        
-        public int? SonhosRecompensa { get; set; }
-    }
-    
-    // DTO para exibição de Evento
     public class EventoDTO
     {
         public int Id { get; set; }
-        
-        public string Nome { get; set; }
-        
-        public string Descricao { get; set; }
-        
+
+        [Required(ErrorMessage = "O nome do evento é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        public string? Descricao { get; set; }
+
+        [Required(ErrorMessage = "O valor em sonhos é obrigatório")]
+        public int ValorSonhos { get; set; }
+
+        [Required(ErrorMessage = "A data de início é obrigatória")]
         public DateTime DataInicio { get; set; }
-        
+
+        [Required(ErrorMessage = "A data de fim é obrigatória")]
         public DateTime DataFim { get; set; }
-        
-        public string Local { get; set; }
-        
-        public int FuncionarioId { get; set; }
-        
-        public string FuncionarioNome { get; set; }
-        
-        public int? SonhosRecompensa { get; set; }
-        
-        public List<ParticipacaoEventoDTO> Participacoes { get; set; }
+
+        [Required(ErrorMessage = "O status do evento é obrigatório")]
+        public string Status { get; set; } = null!;
+    }
+
+    public class EventoCreateDTO
+    {
+        [Required(ErrorMessage = "O nome do evento é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        public string? Descricao { get; set; }
+
+        [Required(ErrorMessage = "O valor em sonhos é obrigatório")]
+        public int ValorSonhos { get; set; }
+
+        [Required(ErrorMessage = "A data de início é obrigatória")]
+        public DateTime DataInicio { get; set; }
+
+        [Required(ErrorMessage = "A data de fim é obrigatória")]
+        public DateTime DataFim { get; set; }
+
+        [Required(ErrorMessage = "O status do evento é obrigatório")]
+        public string Status { get; set; } = null!;
+    }
+
+    public class EventoUpdateDTO
+    {
+        [Required(ErrorMessage = "O nome do evento é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nome deve ter no máximo 100 caracteres")]
+        public string Nome { get; set; } = null!;
+
+        public string? Descricao { get; set; }
+
+        [Required(ErrorMessage = "O valor em sonhos é obrigatório")]
+        public int ValorSonhos { get; set; }
+
+        [Required(ErrorMessage = "A data de início é obrigatória")]
+        public DateTime DataInicio { get; set; }
+
+        [Required(ErrorMessage = "A data de fim é obrigatória")]
+        public DateTime DataFim { get; set; }
+
+        [Required(ErrorMessage = "O status do evento é obrigatório")]
+        public string Status { get; set; } = null!;
     }
 }

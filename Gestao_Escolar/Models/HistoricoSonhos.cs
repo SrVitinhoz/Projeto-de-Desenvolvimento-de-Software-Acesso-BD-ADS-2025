@@ -1,8 +1,8 @@
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Gestao_Escolar.Models;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class HistoricoSonhos
     {
@@ -12,27 +12,31 @@ namespace GestaoEscolar.Models
         [Required]
         public int AlunoId { get; set; }
 
+        [ForeignKey("AlunoId")]
+        public virtual Aluno? Aluno { get; set; }
+
         [Required]
-        [Column(TypeName = "datetime")]
         public DateTime Data { get; set; }
 
         [Required]
-        [Column(TypeName = "enum('adição', 'subtração', 'uso_evento')")]
-        public string Tipo { get; set; }
+        public TipoOperacaoSonhos Tipo { get; set; }
 
         [StringLength(255)]
-        public string Motivo { get; set; }
+        public string? Motivo { get; set; }
 
         [Required]
         public int Valor { get; set; }
 
         public int? FuncionarioId { get; set; }
 
-        // Propriedades de navegação
-        [ForeignKey("AlunoId")]
-        public virtual Aluno Aluno { get; set; }
-
         [ForeignKey("FuncionarioId")]
-        public virtual Funcionario Funcionario { get; set; }
+        public virtual Funcionario? Funcionario { get; set; }
+    }
+
+    public enum TipoOperacaoSonhos
+    {
+        Adição,
+        Subtração,
+        UsoEvento
     }
 }

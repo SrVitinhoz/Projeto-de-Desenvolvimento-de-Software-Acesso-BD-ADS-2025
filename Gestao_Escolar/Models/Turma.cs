@@ -1,8 +1,7 @@
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GestaoEscolar.Models
+namespace Gestao_Escolar.Models
 {
     public class Turma
     {
@@ -11,20 +10,30 @@ namespace GestaoEscolar.Models
 
         [Required]
         [StringLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = null!;
 
         [Required]
-        [Column(TypeName = "enum('ativo', 'desligado')")]
-        public string Status { get; set; }
+        public StatusTurma Status { get; set; }
 
         [Required]
-        [Column(TypeName = "enum('vespertino', 'matutino')")]
-        public string Periodo { get; set; }
+        public PeriodoTurma Periodo { get; set; }
 
         // Propriedades de navegação
-        public virtual ICollection<Aluno> Alunos { get; set; }
-        public virtual ICollection<Chamada> Chamadas { get; set; }
-        public virtual ICollection<TransferenciaTurma> TransferenciasOrigem { get; set; }
-        public virtual ICollection<TransferenciaTurma> TransferenciasDestino { get; set; }
+        public virtual ICollection<Aluno>? Alunos { get; set; }
+        public virtual ICollection<Chamada>? Chamadas { get; set; }
+        public virtual ICollection<TransferenciaTurma>? TransferenciasOrigem { get; set; }
+        public virtual ICollection<TransferenciaTurma>? TransferenciasDestino { get; set; }
+    }
+
+    public enum StatusTurma
+    {
+        Ativo,
+        Desligado
+    }
+
+    public enum PeriodoTurma
+    {
+        Matutino,
+        Vespertino
     }
 }
