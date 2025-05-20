@@ -40,6 +40,7 @@ namespace Gestao_Escolar.DTOs
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         public DateTime DataNascimento { get; set; }
 
+
         public string? FotoUrl { get; set; }
 
         public int? TurmaId { get; set; }

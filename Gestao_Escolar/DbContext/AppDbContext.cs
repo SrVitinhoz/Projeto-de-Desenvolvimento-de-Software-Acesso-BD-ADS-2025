@@ -24,6 +24,19 @@ namespace Gestao_Escolar.DbContext
         {
             base.OnModelCreating(modelBuilder);
 
+            // Configurar nomes das tabelas para corresponder ao banco de dados
+            modelBuilder.Entity<Turma>().ToTable("Turma");
+            modelBuilder.Entity<Materia>().ToTable("Materia");
+            modelBuilder.Entity<Funcionario>().ToTable("Funcionario");
+            modelBuilder.Entity<Aluno>().ToTable("Aluno");
+            modelBuilder.Entity<Evento>().ToTable("Evento");
+            modelBuilder.Entity<ParticipacaoEvento>().ToTable("ParticipacaoEvento");
+            modelBuilder.Entity<Chamada>().ToTable("Chamada");
+            modelBuilder.Entity<ChamadaAluno>().ToTable("ChamadaAluno");
+            modelBuilder.Entity<HistoricoSonhos>().ToTable("HistoricoSonhos");
+            modelBuilder.Entity<TransferenciaTurma>().ToTable("TransferenciaTurma");
+            modelBuilder.Entity<Matricula>().ToTable("Matricula");
+
             // Configuração de relacionamentos e restrições
 
             // Configuração para Funcionario
@@ -103,5 +116,6 @@ namespace Gestao_Escolar.DbContext
                 .Property(m => m.Status)
                 .HasConversion<string>();
         }
+        
     }
 }

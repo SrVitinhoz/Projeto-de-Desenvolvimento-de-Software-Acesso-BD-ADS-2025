@@ -9,3 +9,244 @@ H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-S
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
 H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.Development.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.staticwebassets.endpoints.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.exe
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.deps.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.runtimeconfig.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.pdb
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.Collection.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Core.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Identity.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\EFCore.NamingConventions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.OpenApi.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\MySqlConnector.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.ClientModel.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Drawing.Common.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Memory.Data.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Runtime.Caching.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Permissions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Windows.Extensions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\scopedcss\bundle\Gestao_Escolar.styles.css
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.development.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.Gestao_Escolar.Microsoft.AspNetCore.StaticWebAssets.props
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.Gestao_Escolar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.build.Gestao_Escolar.props
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gestao_Escolar.props
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Gestao_Escolar.props
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.pack.json
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_E.A0D70B46.Up2Date
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
+H:\Meu Drive\ADS - Períodos\ADS 5º\Acesso a BD\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.AssemblyReference.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfoInputs.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfo.cs
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.CoreCompileInputs.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.sourcelink.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.Development.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.staticwebassets.endpoints.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.exe
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.deps.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.runtimeconfig.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.pdb
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.Collection.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Core.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Identity.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\EFCore.NamingConventions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\MySqlConnector.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.ClientModel.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\scopedcss\bundle\Gestao_Escolar.styles.css
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.development.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_E.A0D70B46.Up2Date
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
+D:\Desktop\Nova pasta\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.Development.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\appsettings.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.staticwebassets.endpoints.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.exe
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.deps.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.runtimeconfig.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Gestao_Escolar.pdb
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\AutoMapper.Collection.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Core.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Azure.Identity.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\EFCore.NamingConventions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\MySqlConnector.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.ClientModel.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.AssemblyReference.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfoInputs.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.AssemblyInfo.cs
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.csproj.CoreCompileInputs.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.sourcelink.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\scopedcss\bundle\Gestao_Escolar.styles.css
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.development.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_E.A0D70B46.Up2Date
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll

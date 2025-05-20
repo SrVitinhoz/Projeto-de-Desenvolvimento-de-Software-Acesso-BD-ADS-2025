@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj": {}
+    "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj": {}
   },
   "projects": {
-    "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj": {
+    "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
+        "projectUniqueName": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
         "projectName": "Gestao_Escolar",
-        "projectPath": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
+        "projectPath": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Gestao_Escolar.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "H:\\Meu Drive\\ADS - Períodos\\ADS 5º\\Acesso a BD\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\obj\\",
+        "outputPath": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -54,9 +54,9 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "AutoMapper.Collection": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.0.0, )"
             },
             "EFCore.NamingConventions": {
               "target": "Package",
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
