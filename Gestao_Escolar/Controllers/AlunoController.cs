@@ -5,7 +5,7 @@ using Gestao_Escolar.DTOs;
 namespace Gestao_Escolar.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class AlunoController : ControllerBase
     {
         private readonly IAlunoService _alunoService;

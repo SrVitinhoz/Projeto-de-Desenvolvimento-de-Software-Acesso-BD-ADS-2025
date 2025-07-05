@@ -18,7 +18,6 @@ namespace Gestao_Escolar.DbContext
         public DbSet<ChamadaAluno> ChamadasAluno { get; set; }
         public DbSet<HistoricoSonhos> HistoricoSonhos { get; set; }
         public DbSet<TransferenciaTurma> TransferenciasTurma { get; set; }
-        public DbSet<Matricula> Matriculas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -35,7 +34,7 @@ namespace Gestao_Escolar.DbContext
             modelBuilder.Entity<ChamadaAluno>().ToTable("ChamadaAluno");
             modelBuilder.Entity<HistoricoSonhos>().ToTable("HistoricoSonhos");
             modelBuilder.Entity<TransferenciaTurma>().ToTable("TransferenciaTurma");
-            modelBuilder.Entity<Matricula>().ToTable("Matricula");
+
 
             // Configuração de relacionamentos e restrições
 
@@ -112,9 +111,6 @@ namespace Gestao_Escolar.DbContext
                 .Property(h => h.Tipo)
                 .HasConversion<string>();
 
-            modelBuilder.Entity<Matricula>()
-                .Property(m => m.Status)
-                .HasConversion<string>();
         }
         
     }

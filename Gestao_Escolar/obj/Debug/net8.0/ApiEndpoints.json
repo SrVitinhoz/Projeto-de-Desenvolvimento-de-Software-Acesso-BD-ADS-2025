@@ -2,7 +2,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "GetAll",
-    "RelativePath": "api/Aluno",
+    "RelativePath": "Aluno",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "Create",
-    "RelativePath": "api/Aluno",
+    "RelativePath": "Aluno",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "GetById",
-    "RelativePath": "api/Aluno/{id}",
+    "RelativePath": "Aluno/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "Update",
-    "RelativePath": "api/Aluno/{id}",
+    "RelativePath": "Aluno/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -95,7 +95,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "Delete",
-    "RelativePath": "api/Aluno/{id}",
+    "RelativePath": "Aluno/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -111,7 +111,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "AtualizarSaldoSonhos",
-    "RelativePath": "api/Aluno/{id}/saldo-sonhos",
+    "RelativePath": "Aluno/{id}/saldo-sonhos",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -132,7 +132,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "GetByTurma",
-    "RelativePath": "api/Aluno/turma/{turmaId}",
+    "RelativePath": "Aluno/turma/{turmaId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -158,7 +158,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "GetAll",
-    "RelativePath": "api/Chamada",
+    "RelativePath": "Chamada",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -178,7 +178,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "Create",
-    "RelativePath": "api/Chamada",
+    "RelativePath": "Chamada",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -204,7 +204,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "GetAlunosByChamada",
-    "RelativePath": "api/Chamada/{chamadaId}/alunos",
+    "RelativePath": "Chamada/{chamadaId}/alunos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -230,7 +230,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "GetById",
-    "RelativePath": "api/Chamada/{id}",
+    "RelativePath": "Chamada/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -256,7 +256,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "Update",
-    "RelativePath": "api/Chamada/{id}",
+    "RelativePath": "Chamada/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -277,7 +277,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "Delete",
-    "RelativePath": "api/Chamada/{id}",
+    "RelativePath": "Chamada/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -293,7 +293,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "CreateCompleta",
-    "RelativePath": "api/Chamada/completa",
+    "RelativePath": "Chamada/completa",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -319,7 +319,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "GetByTurmaData",
-    "RelativePath": "api/Chamada/turma/{turmaId}/data/{data}",
+    "RelativePath": "Chamada/turma/{turmaId}/data/{data}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -350,7 +350,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "GetAll",
-    "RelativePath": "api/ChamadaAluno",
+    "RelativePath": "ChamadaAluno",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -370,7 +370,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "Create",
-    "RelativePath": "api/ChamadaAluno",
+    "RelativePath": "ChamadaAluno",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -396,7 +396,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "GetById",
-    "RelativePath": "api/ChamadaAluno/{id}",
+    "RelativePath": "ChamadaAluno/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -422,7 +422,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "Update",
-    "RelativePath": "api/ChamadaAluno/{id}",
+    "RelativePath": "ChamadaAluno/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -443,7 +443,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "Delete",
-    "RelativePath": "api/ChamadaAluno/{id}",
+    "RelativePath": "ChamadaAluno/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -459,7 +459,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "GetByAluno",
-    "RelativePath": "api/ChamadaAluno/aluno/{alunoId}",
+    "RelativePath": "ChamadaAluno/aluno/{alunoId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -485,7 +485,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaAlunoController",
     "Method": "GetByChamada",
-    "RelativePath": "api/ChamadaAluno/chamada/{chamadaId}",
+    "RelativePath": "ChamadaAluno/chamada/{chamadaId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -511,7 +511,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "GetAll",
-    "RelativePath": "api/Evento",
+    "RelativePath": "Evento",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -531,7 +531,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "Create",
-    "RelativePath": "api/Evento",
+    "RelativePath": "Evento",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -557,7 +557,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "RegistrarParticipacao",
-    "RelativePath": "api/Evento/{eventoId}/participacao/{alunoId}",
+    "RelativePath": "Evento/{eventoId}/participacao/{alunoId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -578,7 +578,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "GetById",
-    "RelativePath": "api/Evento/{id}",
+    "RelativePath": "Evento/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -604,7 +604,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "Update",
-    "RelativePath": "api/Evento/{id}",
+    "RelativePath": "Evento/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -625,7 +625,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "Delete",
-    "RelativePath": "api/Evento/{id}",
+    "RelativePath": "Evento/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -641,7 +641,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.EventoController",
     "Method": "GetAtivos",
-    "RelativePath": "api/Evento/ativos",
+    "RelativePath": "Evento/ativos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -661,7 +661,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "GetAll",
-    "RelativePath": "api/Funcionario",
+    "RelativePath": "Funcionario",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -681,7 +681,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "Create",
-    "RelativePath": "api/Funcionario",
+    "RelativePath": "Funcionario",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -707,7 +707,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "GetById",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "Funcionario/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -733,7 +733,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "Update",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "Funcionario/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -754,7 +754,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "Delete",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "Funcionario/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -770,7 +770,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "GetProfessores",
-    "RelativePath": "api/Funcionario/professores",
+    "RelativePath": "Funcionario/professores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -790,7 +790,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "VerificarCpf",
-    "RelativePath": "api/Funcionario/verificar-cpf/{cpf}",
+    "RelativePath": "Funcionario/verificar-cpf/{cpf}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -816,7 +816,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "GetAll",
-    "RelativePath": "api/HistoricoSonhos",
+    "RelativePath": "HistoricoSonhos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -836,7 +836,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "Create",
-    "RelativePath": "api/HistoricoSonhos",
+    "RelativePath": "HistoricoSonhos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -862,7 +862,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "GetById",
-    "RelativePath": "api/HistoricoSonhos/{id}",
+    "RelativePath": "HistoricoSonhos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -888,7 +888,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "Update",
-    "RelativePath": "api/HistoricoSonhos/{id}",
+    "RelativePath": "HistoricoSonhos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -909,7 +909,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "Delete",
-    "RelativePath": "api/HistoricoSonhos/{id}",
+    "RelativePath": "HistoricoSonhos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -925,7 +925,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "AdicionarSonhos",
-    "RelativePath": "api/HistoricoSonhos/adicionar",
+    "RelativePath": "HistoricoSonhos/adicionar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -951,7 +951,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "GetByAluno",
-    "RelativePath": "api/HistoricoSonhos/aluno/{alunoId}",
+    "RelativePath": "HistoricoSonhos/aluno/{alunoId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -977,7 +977,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.HistoricoSonhosController",
     "Method": "SubtrairSonhos",
-    "RelativePath": "api/HistoricoSonhos/subtrair",
+    "RelativePath": "HistoricoSonhos/subtrair",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1003,7 +1003,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "GetAll",
-    "RelativePath": "api/Materia",
+    "RelativePath": "Materia",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1023,7 +1023,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "Create",
-    "RelativePath": "api/Materia",
+    "RelativePath": "Materia",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1049,7 +1049,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "GetById",
-    "RelativePath": "api/Materia/{id}",
+    "RelativePath": "Materia/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1075,7 +1075,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "Update",
-    "RelativePath": "api/Materia/{id}",
+    "RelativePath": "Materia/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1096,7 +1096,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "Delete",
-    "RelativePath": "api/Materia/{id}",
+    "RelativePath": "Materia/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1112,7 +1112,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.MateriaController",
     "Method": "GetAtivas",
-    "RelativePath": "api/Materia/ativas",
+    "RelativePath": "Materia/ativas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1130,170 +1130,9 @@
     ]
   },
   {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "GetAll",
-    "RelativePath": "api/Matricula",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Gestao_Escolar.DTOs.MatriculaDTO, Gestao_Escolar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "Create",
-    "RelativePath": "api/Matricula",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "matriculaDto",
-        "Type": "Gestao_Escolar.DTOs.MatriculaCreateDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Gestao_Escolar.DTOs.MatriculaDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "GetById",
-    "RelativePath": "api/Matricula/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Gestao_Escolar.DTOs.MatriculaDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "Update",
-    "RelativePath": "api/Matricula/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "matriculaDto",
-        "Type": "Gestao_Escolar.DTOs.MatriculaUpdateDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "Delete",
-    "RelativePath": "api/Matricula/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "GetByAluno",
-    "RelativePath": "api/Matricula/aluno/{alunoId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "alunoId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Gestao_Escolar.DTOs.MatriculaDTO, Gestao_Escolar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.MatriculaController",
-    "Method": "AtualizarStatus",
-    "RelativePath": "api/Matricula/atualizar-status",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "atualizarDto",
-        "Type": "Gestao_Escolar.Controllers.AtualizarStatusMatriculaDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Gestao_Escolar.DTOs.MatriculaDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "GetAll",
-    "RelativePath": "api/ParticipacaoEvento",
+    "RelativePath": "ParticipacaoEvento",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1313,7 +1152,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "Create",
-    "RelativePath": "api/ParticipacaoEvento",
+    "RelativePath": "ParticipacaoEvento",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1339,7 +1178,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "GetById",
-    "RelativePath": "api/ParticipacaoEvento/{id}",
+    "RelativePath": "ParticipacaoEvento/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1365,7 +1204,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "Update",
-    "RelativePath": "api/ParticipacaoEvento/{id}",
+    "RelativePath": "ParticipacaoEvento/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1386,7 +1225,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "Delete",
-    "RelativePath": "api/ParticipacaoEvento/{id}",
+    "RelativePath": "ParticipacaoEvento/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1402,7 +1241,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "GetByAluno",
-    "RelativePath": "api/ParticipacaoEvento/aluno/{alunoId}",
+    "RelativePath": "ParticipacaoEvento/aluno/{alunoId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1428,7 +1267,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "GetByEvento",
-    "RelativePath": "api/ParticipacaoEvento/evento/{eventoId}",
+    "RelativePath": "ParticipacaoEvento/evento/{eventoId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1452,25 +1291,9 @@
     ]
   },
   {
-    "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
-    "Method": "RegistrarParticipacao",
-    "RelativePath": "api/ParticipacaoEvento/registrar",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "registrarDto",
-        "Type": "Gestao_Escolar.Controllers.RegistrarParticipacaoDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "GetAll",
-    "RelativePath": "api/TransferenciaTurma",
+    "RelativePath": "TransferenciaTurma",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1490,7 +1313,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "Create",
-    "RelativePath": "api/TransferenciaTurma",
+    "RelativePath": "TransferenciaTurma",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1516,7 +1339,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "GetById",
-    "RelativePath": "api/TransferenciaTurma/{id}",
+    "RelativePath": "TransferenciaTurma/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1542,7 +1365,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "Update",
-    "RelativePath": "api/TransferenciaTurma/{id}",
+    "RelativePath": "TransferenciaTurma/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1563,7 +1386,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "Delete",
-    "RelativePath": "api/TransferenciaTurma/{id}",
+    "RelativePath": "TransferenciaTurma/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1579,7 +1402,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "GetByAluno",
-    "RelativePath": "api/TransferenciaTurma/aluno/{alunoId}",
+    "RelativePath": "TransferenciaTurma/aluno/{alunoId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1605,7 +1428,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TransferenciaTurmaController",
     "Method": "RealizarTransferencia",
-    "RelativePath": "api/TransferenciaTurma/transferir",
+    "RelativePath": "TransferenciaTurma/transferir",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1631,7 +1454,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "GetAll",
-    "RelativePath": "api/Turma",
+    "RelativePath": "Turma",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1651,7 +1474,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "Create",
-    "RelativePath": "api/Turma",
+    "RelativePath": "Turma",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1677,7 +1500,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "GetById",
-    "RelativePath": "api/Turma/{id}",
+    "RelativePath": "Turma/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1703,7 +1526,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "Update",
-    "RelativePath": "api/Turma/{id}",
+    "RelativePath": "Turma/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -1724,7 +1547,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "Delete",
-    "RelativePath": "api/Turma/{id}",
+    "RelativePath": "Turma/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1740,7 +1563,7 @@
   {
     "ContainingType": "Gestao_Escolar.Controllers.TurmaController",
     "Method": "GetByPeriodo",
-    "RelativePath": "api/Turma/periodo/{periodo}",
+    "RelativePath": "Turma/periodo/{periodo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -47,9 +47,7 @@ namespace Gestao_Escolar.DTOs
         public string Status { get; set; } = null!;
 
         [Required(ErrorMessage = "A data de admissão é obrigatória")]
-        public DateTime DataAdmissao { get; set; }
-
-        public DateTime? DataDesligamento { get; set; }
+        public DateTime DataAdimicao { get; set; }
 
         public int? MateriaId { get; set; }
     }

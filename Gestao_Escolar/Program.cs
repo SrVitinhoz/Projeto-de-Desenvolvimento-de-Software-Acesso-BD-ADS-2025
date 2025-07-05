@@ -36,7 +36,6 @@ builder.Services.AddScoped<IChamadaService, ChamadaService>();
 builder.Services.AddScoped<IChamadaAlunoService, ChamadaAlunoService>();
 builder.Services.AddScoped<IHistoricoSonhosService, HistoricoSonhosService>();
 builder.Services.AddScoped<ITransferenciaTurmaService, TransferenciaTurmaService>();
-builder.Services.AddScoped<IMatriculaService, MatriculaService>();
 builder.Services.AddScoped<IParticipacaoEventoService, ParticipacaoEventoService>();
 
 var app = builder.Build();

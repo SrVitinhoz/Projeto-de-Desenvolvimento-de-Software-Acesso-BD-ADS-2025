@@ -18,9 +18,6 @@ namespace Gestao_Escolar.DTOs
 
         public bool Participou { get; set; }
 
-        public string? AlunoTurma { get; set; }
-
-        public string? AlunoPeriodo { get; set; }
     }
 
     public class ParticipacaoEventoCreateDTO
@@ -33,17 +30,11 @@ namespace Gestao_Escolar.DTOs
 
         public bool Participou { get; set; }
 
-        public string? AlunoTurma { get; set; }
-
-        public string? AlunoPeriodo { get; set; }
     }
 
     public class ParticipacaoEventoUpdateDTO
     {
         public bool Participou { get; set; }
 
-        public string? AlunoTurma { get; set; }
-
-        public string? AlunoPeriodo { get; set; }
     }
 }

@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Models;
 using Gestao_Escolar.Services;
-using Gestao_Escolar.DTOs;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Gestao_Escolar.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class TurmaController : ControllerBase
     {
         private readonly ITurmaService _turmaService;
@@ -38,6 +40,7 @@ namespace Gestao_Escolar.Controllers
             var turmas = await _turmaService.GetTurmasAtivasByPeriodoAsync(periodo);
             return Ok(turmas);
         }
+
 
         [HttpPost]
         public async Task<ActionResult<TurmaDTO>> Create(TurmaCreateDTO turmaDto)

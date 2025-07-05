@@ -5,7 +5,7 @@ using Gestao_Escolar.DTOs;
 namespace Gestao_Escolar.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class ParticipacaoEventoController : ControllerBase
     {
         private readonly IParticipacaoEventoService _participacaoEventoService;
@@ -53,19 +53,6 @@ namespace Gestao_Escolar.Controllers
             return CreatedAtAction(nameof(GetById), new { id = novaParticipacao.Id }, novaParticipacao);
         }
 
-        [HttpPost("registrar")]
-        public async Task<IActionResult> RegistrarParticipacao(
-            [FromBody] RegistrarParticipacaoDTO registrarDto)
-        {
-            var resultado = await _participacaoEventoService.RegistrarParticipacaoAsync(
-                registrarDto.EventoId,
-                registrarDto.AlunoId);
-
-            if (!resultado)
-                return BadRequest("Não foi possível registrar a participação");
-
-            return NoContent();
-        }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, ParticipacaoEventoUpdateDTO participacaoDto)

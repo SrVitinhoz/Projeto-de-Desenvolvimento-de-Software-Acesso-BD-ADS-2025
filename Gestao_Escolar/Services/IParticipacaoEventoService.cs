@@ -52,14 +52,7 @@ namespace Gestao_Escolar.Services
         public async Task<ParticipacaoEventoDTO> CreateAsync(ParticipacaoEventoCreateDTO createDto)
         {
             var participacao = _mapper.Map<ParticipacaoEvento>(createDto);
-
-            // Buscar informações do aluno para preencher campos adicionais
-            var aluno = await _context.Alunos.Include(a => a.Turma).FirstOrDefaultAsync(a => a.Id == createDto.AlunoId);
-            if (aluno != null)
-            {
-                participacao.AlunoTurma = aluno.Turma?.Nome;
-                participacao.AlunoPeriodo = aluno.Periodo.ToString();
-            }
+         
 
             _context.ParticipacaoEventos.Add(participacao);
             await _context.SaveChangesAsync();
@@ -140,9 +133,7 @@ namespace Gestao_Escolar.Services
                     {
                         EventoId = eventoId,
                         AlunoId = alunoId,
-                        Participou = true,
-                        AlunoTurma = aluno.Turma?.Nome,
-                        AlunoPeriodo = aluno.Periodo.ToString()
+                        Participou = true
                     };
                     _context.ParticipacaoEventos.Add(participacao);
                 }

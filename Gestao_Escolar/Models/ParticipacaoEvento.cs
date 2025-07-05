@@ -23,10 +23,5 @@ namespace Gestao_Escolar.Models
 
         public bool Participou { get; set; } = false;
 
-        [StringLength(255)]
-        public string? AlunoTurma { get; set; }
-
-        [StringLength(255)]
-        public string? AlunoPeriodo { get; set; }
     }
 }

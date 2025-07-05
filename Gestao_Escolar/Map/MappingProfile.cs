@@ -75,12 +75,6 @@ namespace Gestao_Escolar
             CreateMap<TransferenciaTurmaCreateDTO, TransferenciaTurma>();
             CreateMap<TransferenciaTurmaUpdateDTO, TransferenciaTurma>();
 
-            // Matricula
-            CreateMap<Matricula, MatriculaDTO>()
-                .ForMember(dest => dest.AlunoNome, opt => opt.MapFrom(src => src.Aluno != null ? src.Aluno.Nome : null))
-                .ForMember(dest => dest.FuncionarioNome, opt => opt.MapFrom(src => src.Funcionario != null ? src.Funcionario.Nome : null));
-            CreateMap<MatriculaCreateDTO, Matricula>();
-            CreateMap<MatriculaUpdateDTO, Matricula>();
         }
     }
 }

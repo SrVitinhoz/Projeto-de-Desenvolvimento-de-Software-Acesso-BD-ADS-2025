@@ -24,7 +24,7 @@ namespace Gestao_Escolar.Models
         public StatusFuncionario Status { get; set; }
 
         [Required]
-        public DateTime DataAdmissao { get; set; }
+        public DateTime DataAdimicao { get; set; }
 
         public DateTime? DataDesligamento { get; set; }
 
@@ -37,7 +37,6 @@ namespace Gestao_Escolar.Models
         public virtual ICollection<Chamada>? Chamadas { get; set; }
         public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
         public virtual ICollection<TransferenciaTurma>? TransferenciasTurma { get; set; }
-        public virtual ICollection<Matricula>? Matriculas { get; set; }
     }
 
     public enum CargoFuncionario

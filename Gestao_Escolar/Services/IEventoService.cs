@@ -93,9 +93,7 @@ namespace Gestao_Escolar.Services
                 {
                     EventoId = eventoId,
                     AlunoId = alunoId,
-                    Participou = true,
-                    AlunoTurma = aluno.Turma?.Nome,
-                    AlunoPeriodo = aluno.Periodo.ToString()
+                    Participou = true
                 };
 
                 _context.ParticipacaoEventos.Add(participacao);

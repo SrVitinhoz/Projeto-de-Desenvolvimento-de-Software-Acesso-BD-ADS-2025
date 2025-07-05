@@ -3,136 +3,24 @@
   "WorkspaceRootPath": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\transferenciaturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\transferenciaturmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\chamadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\chamadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\chamadaalunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\chamadaalunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\historicosonhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\historicosonhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\participacaoeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\participacaoeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\turma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\iturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ichamadaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ichamadaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ihistoricosonhosservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ihistoricosonhosservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\itransferenciaturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\itransferenciaturmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ichamadaalunoservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ichamadaalunoservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ifuncionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ifuncionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\imateriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\imateriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\transferenciaturmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\transferenciaturmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\historicosonhosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\historicosonhosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\chamadaalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\chamadaalunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\chamadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\chamadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\participacaoeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\participacaoeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\iparticipacaoeventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\iparticipacaoeventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\materiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\materiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\turmadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\participacaoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\participacaoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,415 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MateriaController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\MateriaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MateriaController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\MateriaController.cs",
-              "RelativeToolTip": "Controllers\\MateriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:19:54.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\FuncionarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\FuncionarioController.cs",
-              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:19:34.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlunoController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\AlunoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlunoController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\AlunoController.cs",
-              "RelativeToolTip": "Controllers\\AlunoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:19:05.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EventoController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\EventoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventoController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\EventoController.cs",
-              "RelativeToolTip": "Controllers\\EventoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:18:33.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChamadaController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ChamadaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChamadaController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ChamadaController.cs",
-              "RelativeToolTip": "Controllers\\ChamadaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:18:16.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChamadaAlunoController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ChamadaAlunoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChamadaAlunoController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ChamadaAlunoController.cs",
-              "RelativeToolTip": "Controllers\\ChamadaAlunoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:17:54.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HistoricoSonhosController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\HistoricoSonhosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HistoricoSonhosController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\HistoricoSonhosController.cs",
-              "RelativeToolTip": "Controllers\\HistoricoSonhosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:17:32.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransferenciaTurmaController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\TransferenciaTurmaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TransferenciaTurmaController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\TransferenciaTurmaController.cs",
-              "RelativeToolTip": "Controllers\\TransferenciaTurmaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:17:08.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MatriculaController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\MatriculaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MatriculaController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\MatriculaController.cs",
-              "RelativeToolTip": "Controllers\\MatriculaController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:16:52.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ParticipacaoEventoController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ParticipacaoEventoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ParticipacaoEventoController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ParticipacaoEventoController.cs",
-              "RelativeToolTip": "Controllers\\ParticipacaoEventoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:16:14.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "Models\\Aluno.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Aluno.cs",
-              "RelativeToolTip": "Models\\Aluno.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:53:40.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Turma.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Turma.cs",
-              "RelativeDocumentMoniker": "Models\\Turma.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Turma.cs",
-              "RelativeToolTip": "Models\\Turma.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:25:30.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DbContext\\AppDbContext.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DbContext\\AppDbContext.cs",
-              "RelativeToolTip": "DbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAD4v3UAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:25:04.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITurmaService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\ITurmaService.cs",
-              "RelativeDocumentMoniker": "Services\\ITurmaService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\ITurmaService.cs",
-              "RelativeToolTip": "Services\\ITurmaService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:24:49.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Map\\MappingProfile.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
-              "RelativeToolTip": "Map\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:49:54.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IChamadaService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IChamadaService.cs",
-              "RelativeDocumentMoniker": "Services\\IChamadaService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IChamadaService.cs",
-              "RelativeToolTip": "Services\\IChamadaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:02:57.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Matricula.cs",
-              "RelativeDocumentMoniker": "Models\\Matricula.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Matricula.cs",
-              "RelativeToolTip": "Models\\Matricula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:47:52.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAlunoService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IAlunoService.cs",
-              "RelativeDocumentMoniker": "Services\\IAlunoService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IAlunoService.cs",
-              "RelativeToolTip": "Services\\IAlunoService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwAwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:02:15.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IChamadaAlunoService .cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IChamadaAlunoService .cs",
-              "RelativeDocumentMoniker": "Services\\IChamadaAlunoService .cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IChamadaAlunoService .cs",
-              "RelativeToolTip": "Services\\IChamadaAlunoService .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:24:38.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IHistoricoSonhosService .cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IHistoricoSonhosService .cs",
-              "RelativeDocumentMoniker": "Services\\IHistoricoSonhosService .cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IHistoricoSonhosService .cs",
-              "RelativeToolTip": "Services\\IHistoricoSonhosService .cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwBEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:25:14.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ITransferenciaTurmaService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\ITransferenciaTurmaService.cs",
-              "RelativeDocumentMoniker": "Services\\ITransferenciaTurmaService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\ITransferenciaTurmaService.cs",
-              "RelativeToolTip": "Services\\ITransferenciaTurmaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:25:53.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IFuncionarioService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IFuncionarioService.cs",
-              "RelativeDocumentMoniker": "Services\\IFuncionarioService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IFuncionarioService.cs",
-              "RelativeToolTip": "Services\\IFuncionarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:24:06.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IMateriaService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IMateriaService.cs",
-              "RelativeDocumentMoniker": "Services\\IMateriaService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IMateriaService.cs",
-              "RelativeToolTip": "Services\\IMateriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:19:57.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "IEventoService.cs",
               "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IEventoService.cs",
               "RelativeDocumentMoniker": "Services\\IEventoService.cs",
               "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IEventoService.cs",
               "RelativeToolTip": "Services\\IEventoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAIAywF8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:03:31.21Z"
+              "WhenOpened": "2025-07-05T00:22:23.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MatriculaDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\MatriculaDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\MatriculaDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\MatriculaDTO.cs",
-              "RelativeToolTip": "DTOs\\MatriculaDTO.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswAsAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ParticipacaoEventoController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ParticipacaoEventoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParticipacaoEventoController.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\ParticipacaoEventoController.cs",
+              "RelativeToolTip": "Controllers\\ParticipacaoEventoController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:51:17.082Z"
+              "WhenOpened": "2025-07-05T00:17:32.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TransferenciaTurmaDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\TransferenciaTurmaDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\TransferenciaTurmaDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\TransferenciaTurmaDTO.cs",
-              "RelativeToolTip": "DTOs\\TransferenciaTurmaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:50:52.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HistoricoSonhosDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\HistoricoSonhosDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\HistoricoSonhosDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\HistoricoSonhosDTO.cs",
-              "RelativeToolTip": "DTOs\\HistoricoSonhosDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:50:30.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ChamadaAlunoDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ChamadaAlunoDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\ChamadaAlunoDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ChamadaAlunoDTO.cs",
-              "RelativeToolTip": "DTOs\\ChamadaAlunoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:50:10.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ChamadaDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ChamadaDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\ChamadaDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ChamadaDTO.cs",
-              "RelativeToolTip": "DTOs\\ChamadaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:49:47.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 1,
               "Title": "ParticipacaoEventoDTO.cs",
               "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ParticipacaoEventoDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ParticipacaoEventoDTO.cs",
               "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\ParticipacaoEventoDTO.cs",
               "RelativeToolTip": "DTOs\\ParticipacaoEventoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:48:21.751Z"
+              "WhenOpened": "2025-07-05T00:17:31.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EventoDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\EventoDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\EventoDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\EventoDTO.cs",
-              "RelativeToolTip": "DTOs\\EventoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IParticipacaoEventoService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IParticipacaoEventoService.cs",
+              "RelativeDocumentMoniker": "Services\\IParticipacaoEventoService.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IParticipacaoEventoService.cs",
+              "RelativeToolTip": "Services\\IParticipacaoEventoService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAD4v3gAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:47:40.014Z"
+              "WhenOpened": "2025-07-05T00:17:21.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MateriaDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\MateriaDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\MateriaDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\MateriaDTO.cs",
-              "RelativeToolTip": "DTOs\\MateriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ParticipacaoEvento.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\ParticipacaoEvento.cs",
+              "RelativeDocumentMoniker": "Models\\ParticipacaoEvento.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\ParticipacaoEvento.cs",
+              "RelativeToolTip": "Models\\ParticipacaoEvento.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T13:06:40.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TurmaDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\TurmaDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\TurmaDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\DTOs\\TurmaDTO.cs",
-              "RelativeToolTip": "DTOs\\TurmaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T13:05:51.266Z"
+              "WhenOpened": "2025-07-05T00:17:10.181Z",
+              "EditorCaption": ""
             }
           ]
         }
