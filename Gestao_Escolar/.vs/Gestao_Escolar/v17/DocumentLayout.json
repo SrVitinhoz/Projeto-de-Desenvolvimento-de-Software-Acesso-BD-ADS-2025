@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Models\\HistoricoSonhos.cs",
               "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\HistoricoSonhos.cs",
               "RelativeToolTip": "Models\\HistoricoSonhos.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T00:34:26.43Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Models\\ChamadaAluno.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:32:33.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:32:33.711Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "DTOs\\ChamadaAlunoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:32:03.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:32:03.943Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Controllers\\ChamadaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:32:01.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:32:01.438Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "DTOs\\ChamadaDTO.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAmwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:28:44.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:28:44.671Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Services\\IEventoService.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAIAywF8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:22:23.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:22:23.645Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "Controllers\\ParticipacaoEventoController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAswEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:17:32.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:17:32.972Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "DTOs\\ParticipacaoEventoDTO.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAwwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:17:31.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:17:31.355Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "Services\\IParticipacaoEventoService.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAD4v3gAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:17:21.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:17:21.861Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "Models\\ParticipacaoEvento.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:17:10.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T00:17:10.181Z"
             }
           ]
         }

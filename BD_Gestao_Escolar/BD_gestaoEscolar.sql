@@ -31,9 +31,9 @@ CREATE TABLE Aluno (
   data_nascimento DATETIME NOT NULL,
   foto_url BLOB,
   turma_id INT,
+  status_matricula ENUM('ativo', 'desligado', 'inativa') NOT NULL,
   saldo_sonhos INT DEFAULT 0,
   num_matricula int not null,
-  status_matricula enum('ativo', 'desligado', 'inativo'),
   periodo ENUM('matutino', 'vespertino') not null,
   FOREIGN KEY (turma_id) REFERENCES Turma(id)
 );
@@ -53,6 +53,8 @@ CREATE TABLE ParticipacaoEvento (
   aluno_id INT NOT NULL,
   evento_id INT NOT NULL,
   participou BOOLEAN DEFAULT FALSE,
+  aluno_turma VARCHAR(255),
+  aluno_periodo VARCHAR(255),
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (evento_id) REFERENCES Evento(id)
 );
@@ -101,5 +103,16 @@ CREATE TABLE TransferenciaTurma (
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (turma_origem_id) REFERENCES Turma(id),
   FOREIGN KEY (turma_destino_id) REFERENCES Turma(id),
+  FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
+);
+
+CREATE TABLE Matricula (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  aluno_id INT NOT NULL,
+  data DATETIME NOT NULL,
+  status ENUM('ativa', 'desligada', 'inativa') NOT NULL,
+  descricao VARCHAR(255) NOT NULL,
+  funcionario_id INT,
+  FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
 );
