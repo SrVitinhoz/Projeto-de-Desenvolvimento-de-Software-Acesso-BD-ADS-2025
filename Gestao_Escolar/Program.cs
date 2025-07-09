@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Gestao_Escolar.DbContext;
-using Gestao_Escolar.Services;  
+using Gestao_Escolar.Services;
 using Gestao_Escolar;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,9 +38,16 @@ builder.Services.AddScoped<IHistoricoSonhosService, HistoricoSonhosService>();
 builder.Services.AddScoped<ITransferenciaTurmaService, TransferenciaTurmaService>();
 builder.Services.AddScoped<IParticipacaoEventoService, ParticipacaoEventoService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            policy.WithOrigins("*").AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -48,6 +55,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

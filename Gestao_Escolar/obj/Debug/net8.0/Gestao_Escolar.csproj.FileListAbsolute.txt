@@ -243,7 +243,6 @@ D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Ge
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.development.json
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_E.A0D70B46.Up2Date
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.dll
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\refint\Gestao_Escolar.dll
