@@ -26,12 +26,7 @@ namespace Gestao_Escolar
 
             // Aluno
             CreateMap<Aluno, AlunoDTO>()
-                .ForMember(dest => dest.TurmaNome, opt => opt.MapFrom(src => src.Turma != null ? src.Turma.Nome : null))
-                .ForMember(dest => dest.FotoUrl, opt => opt.MapFrom(src => src.FotoUrl != null ? Convert.ToBase64String(src.FotoUrl) : null));
-            CreateMap<AlunoCreateDTO, Aluno>()
-                .ForMember(dest => dest.FotoUrl, opt => opt.Ignore()); // Tratar separadamente
-            CreateMap<AlunoUpdateDTO, Aluno>()
-                .ForMember(dest => dest.FotoUrl, opt => opt.Ignore()); // Tratar separadamente
+                .ForMember(dest => dest.TurmaNome, opt => opt.MapFrom(src => src.Turma != null ? src.Turma.Nome : null));
 
             // Evento
             CreateMap<Evento, EventoDTO>();

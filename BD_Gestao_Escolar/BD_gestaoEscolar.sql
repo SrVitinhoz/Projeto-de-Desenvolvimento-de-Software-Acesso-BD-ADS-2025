@@ -29,7 +29,6 @@ CREATE TABLE Aluno (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
   data_nascimento DATETIME NOT NULL,
-  foto_url BLOB,
   turma_id INT,
   status_matricula ENUM('ativo', 'desligado', 'inativa') NOT NULL,
   saldo_sonhos INT DEFAULT 0,

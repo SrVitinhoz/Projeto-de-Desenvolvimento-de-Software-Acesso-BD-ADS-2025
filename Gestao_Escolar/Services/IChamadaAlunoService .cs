@@ -10,8 +10,11 @@ namespace Gestao_Escolar.Services
 {
     public interface IChamadaAlunoService : IBaseService<ChamadaAluno, ChamadaAlunoDTO, ChamadaAlunoCreateDTO, ChamadaAlunoUpdateDTO>
     {
+        
         Task<IEnumerable<ChamadaAlunoDTO>> GetByChamadaIdAsync(int chamadaId);
         Task<IEnumerable<ChamadaAlunoDTO>> GetByAlunoIdAsync(int alunoId);
+
+
     }
 
     public class ChamadaAlunoService : IChamadaAlunoService

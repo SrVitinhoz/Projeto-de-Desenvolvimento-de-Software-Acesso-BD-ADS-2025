@@ -16,7 +16,6 @@ namespace Gestao_Escolar.Models
         [Required]
         public DateTime DataNascimento { get; set; }
 
-        public byte[]? FotoUrl { get; set; }
 
         public int? TurmaId { get; set; }
 

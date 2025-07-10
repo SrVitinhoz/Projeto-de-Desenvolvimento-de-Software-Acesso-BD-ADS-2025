@@ -13,8 +13,6 @@ namespace Gestao_Escolar.DTOs
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         public DateTime DataNascimento { get; set; }
 
-        public string? FotoUrl { get; set; }
-
         public int? TurmaId { get; set; }
 
         public string? TurmaNome { get; set; }
@@ -23,9 +21,6 @@ namespace Gestao_Escolar.DTOs
         public string StatusMatricula { get; set; } = null!;
 
         public int SaldoSonhos { get; set; }
-
-        [Required(ErrorMessage = "O número de matrícula é obrigatório")]
-        public int NumMatricula { get; set; }
 
         [Required(ErrorMessage = "O período é obrigatório")]
         public string Periodo { get; set; } = null!;
@@ -40,16 +35,10 @@ namespace Gestao_Escolar.DTOs
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         public DateTime DataNascimento { get; set; }
 
-
-        public string? FotoUrl { get; set; }
-
         public int? TurmaId { get; set; }
 
         [Required(ErrorMessage = "O status da matrícula é obrigatório")]
         public string StatusMatricula { get; set; } = null!;
-
-        [Required(ErrorMessage = "O número de matrícula é obrigatório")]
-        public int NumMatricula { get; set; }
 
         [Required(ErrorMessage = "O período é obrigatório")]
         public string Periodo { get; set; } = null!;
@@ -63,8 +52,6 @@ namespace Gestao_Escolar.DTOs
 
         [Required(ErrorMessage = "A data de nascimento é obrigatória")]
         public DateTime DataNascimento { get; set; }
-
-        public string? FotoUrl { get; set; }
 
         public int? TurmaId { get; set; }
 

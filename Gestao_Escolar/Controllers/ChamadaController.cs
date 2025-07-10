@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Models;
 using Gestao_Escolar.Services;
-using Gestao_Escolar.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Gestao_Escolar.Controllers
 {
@@ -32,21 +33,9 @@ namespace Gestao_Escolar.Controllers
                 return NotFound();
 
             return Ok(chamada);
-        }
+        }     
 
-        [HttpGet("turma/{turmaId}/data/{data}")]
-        public async Task<ActionResult<IEnumerable<ChamadaDTO>>> GetByTurmaData(int turmaId, DateTime data)
-        {
-            var chamadas = await _chamadaService.GetChamadasByTurmaDataAsync(turmaId, data);
-            return Ok(chamadas);
-        }
-
-        [HttpGet("{chamadaId}/alunos")]
-        public async Task<ActionResult<IEnumerable<ChamadaAlunoDTO>>> GetAlunosByChamada(int chamadaId)
-        {
-            var chamadaAlunos = await _chamadaAlunoService.GetByChamadaIdAsync(chamadaId);
-            return Ok(chamadaAlunos);
-        }
+        
 
         [HttpPost]
         public async Task<ActionResult<ChamadaDTO>> Create(ChamadaCreateDTO chamadaDto)
@@ -55,19 +44,6 @@ namespace Gestao_Escolar.Controllers
             return CreatedAtAction(nameof(GetById), new { id = novaChamada.Id }, novaChamada);
         }
 
-        [HttpPost("completa")]
-        public async Task<ActionResult<ChamadaDTO>> CreateCompleta(
-            [FromBody] ChamadaCompletaDTO chamadaCompleta)
-        {
-            var novaChamada = await _chamadaService.RegistrarChamadaCompletaAsync(
-                chamadaCompleta.Chamada,
-                chamadaCompleta.Presencas);
-
-            if (novaChamada == null)
-                return BadRequest("Não foi possível registrar a chamada");
-
-            return CreatedAtAction(nameof(GetById), new { id = novaChamada.Id }, novaChamada);
-        }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, ChamadaUpdateDTO chamadaDto)
@@ -88,11 +64,69 @@ namespace Gestao_Escolar.Controllers
 
             return NoContent();
         }
-    }
 
+        [HttpPost("consultar-alunos")]
+        public async Task<ActionResult<ChamadaListaAlunosDTO>> ConsultarAlunosParaChamada(
+    [FromBody] ChamadaConsultaDTO consultaDto)
+        {
+            try
+            {
+                var resultado = await _chamadaService.ConsultarAlunosParaChamadaAsync(consultaDto);
+
+                if (resultado == null)
+                    return BadRequest("Não foi possível consultar os alunos para a chamada");
+
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro ao consultar alunos: {ex.Message}");
+            }
+        }
+
+        [HttpPost("salvar-chamada-completa")]
+        public async Task<ActionResult<ChamadaDTO>> SalvarChamadaCompleta(
+    [FromBody] SalvarChamadaDTO salvarDto)
+        {
+            try
+            {
+                var resultado = await _chamadaService.SalvarChamadaCompletaAsync(salvarDto);
+
+                if (resultado == null)
+                    return BadRequest("Não foi possível salvar a chamada");
+
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro ao salvar chamada: {ex.Message}");
+            }
+        }
+
+
+        [HttpGet("verificar-existencia")]
+        public async Task<ActionResult<bool>> VerificarExistenciaChamada(
+    int turmaId,
+    PeriodoTurma periodo,
+    DateTime data)
+        {
+            try
+            {
+                var existe = await _chamadaService.VerificarExistenciaChamadaAsync(turmaId, periodo, data);
+                return Ok(existe);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro ao verificar existência da chamada: {ex.Message}");
+            }
+        }
+    }
     public class ChamadaCompletaDTO
     {
         public ChamadaCreateDTO Chamada { get; set; } = null!;
         public List<ChamadaAlunoCreateDTO> Presencas { get; set; } = null!;
     }
+
+
+
 }

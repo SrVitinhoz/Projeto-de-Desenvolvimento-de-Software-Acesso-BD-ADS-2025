@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Models;
+using System.Linq.Expressions;
 
 namespace Gestao_Escolar.Services.Interfaces
 {
@@ -10,5 +12,6 @@ namespace Gestao_Escolar.Services.Interfaces
         Task<TDto?> UpdateAsync(int id, TUpdateDto updateDto);
         Task<bool> DeleteAsync(int id);
         Task<IEnumerable<TDto>> FindAsync(Expression<Func<TEntity, bool>> predicate);
+
     }
 }

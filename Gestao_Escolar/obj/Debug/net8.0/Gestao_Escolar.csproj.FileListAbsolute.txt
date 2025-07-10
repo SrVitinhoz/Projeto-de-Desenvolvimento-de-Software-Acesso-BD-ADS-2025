@@ -331,3 +331,4 @@ D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025 - 
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025 - Copia\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.pdb
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025 - Copia\Gestao_Escolar\obj\Debug\net8.0\Gestao_Escolar.genruntimeconfig.cache
 D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025 - Copia\Gestao_Escolar\obj\Debug\net8.0\ref\Gestao_Escolar.dll
+D:\Desktop\Projetos\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\Gestao_Escolar\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

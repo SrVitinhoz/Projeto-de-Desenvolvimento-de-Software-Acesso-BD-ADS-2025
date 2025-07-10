@@ -44,8 +44,17 @@ namespace Gestao_Escolar.Services
         public async Task<AlunoDTO> CreateAsync(AlunoCreateDTO createDto)
         {
             var aluno = _mapper.Map<Aluno>(createDto);
+
+            int ultimoNumMatricula = 0;
+            if (await _context.Alunos.AnyAsync())
+            {
+                ultimoNumMatricula = await _context.Alunos.MaxAsync(a => a.NumMatricula);
+            }
+            aluno.NumMatricula = ultimoNumMatricula + 1;
+
             _context.Alunos.Add(aluno);
             await _context.SaveChangesAsync();
+
             return _mapper.Map<AlunoDTO>(aluno);
         }
 

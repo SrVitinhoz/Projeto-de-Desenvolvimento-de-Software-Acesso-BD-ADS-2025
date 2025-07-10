@@ -203,32 +203,6 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
-    "Method": "GetAlunosByChamada",
-    "RelativePath": "Chamada/{chamadaId}/alunos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "chamadaId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Gestao_Escolar.DTOs.ChamadaAlunoDTO, Gestao_Escolar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "GetById",
     "RelativePath": "Chamada/{id}",
     "HttpMethod": "GET",
@@ -292,15 +266,41 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
-    "Method": "CreateCompleta",
-    "RelativePath": "Chamada/completa",
+    "Method": "ConsultarAlunosParaChamada",
+    "RelativePath": "Chamada/consultar-alunos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "chamadaCompleta",
-        "Type": "Gestao_Escolar.Controllers.ChamadaCompletaDTO",
+        "Name": "consultaDto",
+        "Type": "Gestao_Escolar.DTOs.ChamadaConsultaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gestao_Escolar.DTOs.ChamadaListaAlunosDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
+    "Method": "SalvarChamadaCompleta",
+    "RelativePath": "Chamada/salvar-chamada-completa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salvarDto",
+        "Type": "Gestao_Escolar.DTOs.SalvarChamadaDTO",
         "IsRequired": true
       }
     ],
@@ -318,8 +318,8 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
-    "Method": "GetByTurmaData",
-    "RelativePath": "Chamada/turma/{turmaId}/data/{data}",
+    "Method": "VerificarExistenciaChamada",
+    "RelativePath": "Chamada/verificar-existencia",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -327,17 +327,22 @@
       {
         "Name": "turmaId",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
+      },
+      {
+        "Name": "periodo",
+        "Type": "System.String",
+        "IsRequired": false
       },
       {
         "Name": "data",
         "Type": "System.DateTime",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Gestao_Escolar.DTOs.ChamadaDTO, Gestao_Escolar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Boolean",
         "MediaTypes": [
           "text/plain",
           "application/json",

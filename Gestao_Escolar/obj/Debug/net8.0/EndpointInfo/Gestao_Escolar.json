@@ -469,114 +469,7 @@
         }
       }
     },
-    "/Chamada/turma/{turmaId}/data/{data}": {
-      "get": {
-        "tags": [
-          "Chamada"
-        ],
-        "parameters": [
-          {
-            "name": "turmaId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "data",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaDTO"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Chamada/{chamadaId}/alunos": {
-      "get": {
-        "tags": [
-          "Chamada"
-        ],
-        "parameters": [
-          {
-            "name": "chamadaId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaAlunoDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaAlunoDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ChamadaAlunoDTO"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Chamada/completa": {
+    "/Chamada/consultar-alunos": {
       "post": {
         "tags": [
           "Chamada"
@@ -585,17 +478,65 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ChamadaCompletaDTO"
+                "$ref": "#/components/schemas/ChamadaConsultaDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ChamadaCompletaDTO"
+                "$ref": "#/components/schemas/ChamadaConsultaDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ChamadaCompletaDTO"
+                "$ref": "#/components/schemas/ChamadaConsultaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChamadaListaAlunosDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChamadaListaAlunosDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChamadaListaAlunosDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Chamada/salvar-chamada-completa": {
+      "post": {
+        "tags": [
+          "Chamada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalvarChamadaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalvarChamadaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalvarChamadaDTO"
               }
             }
           }
@@ -617,6 +558,60 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ChamadaDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Chamada/verificar-existencia": {
+      "get": {
+        "tags": [
+          "Chamada"
+        ],
+        "parameters": [
+          {
+            "name": "turmaId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "periodo",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PeriodoTurma"
+            }
+          },
+          {
+            "name": "data",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
                 }
               }
             }
@@ -2805,7 +2800,6 @@
         "required": [
           "dataNascimento",
           "nome",
-          "numMatricula",
           "periodo",
           "statusMatricula"
         ],
@@ -2820,10 +2814,6 @@
             "type": "string",
             "format": "date-time"
           },
-          "fotoUrl": {
-            "type": "string",
-            "nullable": true
-          },
           "turmaId": {
             "type": "integer",
             "format": "int32",
@@ -2832,10 +2822,6 @@
           "statusMatricula": {
             "minLength": 1,
             "type": "string"
-          },
-          "numMatricula": {
-            "type": "integer",
-            "format": "int32"
           },
           "periodo": {
             "minLength": 1,
@@ -2848,7 +2834,6 @@
         "required": [
           "dataNascimento",
           "nome",
-          "numMatricula",
           "periodo",
           "statusMatricula"
         ],
@@ -2867,10 +2852,6 @@
             "type": "string",
             "format": "date-time"
           },
-          "fotoUrl": {
-            "type": "string",
-            "nullable": true
-          },
           "turmaId": {
             "type": "integer",
             "format": "int32",
@@ -2888,13 +2869,35 @@
             "type": "integer",
             "format": "int32"
           },
-          "numMatricula": {
-            "type": "integer",
-            "format": "int32"
-          },
           "periodo": {
             "minLength": 1,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AlunoPresencaDTO": {
+        "type": "object",
+        "properties": {
+          "alunoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeAluno": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/StatusPresenca"
+          },
+          "observacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "chamadaAlunoId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -2916,10 +2919,6 @@
           "dataNascimento": {
             "type": "string",
             "format": "date-time"
-          },
-          "fotoUrl": {
-            "type": "string",
-            "nullable": true
           },
           "turmaId": {
             "type": "integer",
@@ -3016,18 +3015,29 @@
         },
         "additionalProperties": false
       },
-      "ChamadaCompletaDTO": {
+      "ChamadaConsultaDTO": {
+        "required": [
+          "data",
+          "funcionarioId",
+          "periodo",
+          "turmaId"
+        ],
         "type": "object",
         "properties": {
-          "chamada": {
-            "$ref": "#/components/schemas/ChamadaCreateDTO"
+          "turmaId": {
+            "type": "integer",
+            "format": "int32"
           },
-          "presencas": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/ChamadaAlunoCreateDTO"
-            },
-            "nullable": true
+          "periodo": {
+            "$ref": "#/components/schemas/PeriodoTurma"
+          },
+          "funcionarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -3110,6 +3120,50 @@
           "periodo": {
             "minLength": 1,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChamadaListaAlunosDTO": {
+        "type": "object",
+        "properties": {
+          "chamadaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "turmaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "turmaNome": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodo": {
+            "$ref": "#/components/schemas/PeriodoTurma"
+          },
+          "funcionarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "funcionarioNome": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "alunos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlunoPresencaDTO"
+            },
+            "nullable": true
+          },
+          "jaExisteChamada": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -3603,6 +3657,60 @@
           }
         },
         "additionalProperties": false
+      },
+      "PeriodoTurma": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SalvarChamadaDTO": {
+        "type": "object",
+        "properties": {
+          "chamadaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "turmaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "periodo": {
+            "$ref": "#/components/schemas/PeriodoTurma"
+          },
+          "funcionarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "materiaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "alunos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlunoPresencaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StatusPresenca": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "SubtrairSonhosDTO": {
         "type": "object",
