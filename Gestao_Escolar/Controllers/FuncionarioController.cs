@@ -8,50 +8,50 @@ namespace Gestao_Escolar.Controllers
     [Route("[controller]")]
     public class FuncionarioController : ControllerBase
     {
-        private readonly IFuncionarioService _funcionarioService;
+        private readonly IFuncionarioService _FuncionarioService;
 
-        public FuncionarioController(IFuncionarioService funcionarioService)
+        public FuncionarioController(IFuncionarioService FuncionarioService)
         {
-            _funcionarioService = funcionarioService;
+            _FuncionarioService = FuncionarioService;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FuncionarioDTO>>> GetAll()
         {
-            var funcionarios = await _funcionarioService.GetAllAsync();
-            return Ok(funcionarios);
+            var Funcionarios = await _FuncionarioService.GetAllAsync();
+            return Ok(Funcionarios);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<FuncionarioDTO>> GetById(int id)
         {
-            var funcionario = await _funcionarioService.GetByIdAsync(id);
-            if (funcionario == null)
+            var Funcionario = await _FuncionarioService.GetByIdAsync(id);
+            if (Funcionario == null)
                 return NotFound();
 
-            return Ok(funcionario);
+            return Ok(Funcionario);
         }
 
         [HttpGet("professores")]
         public async Task<ActionResult<IEnumerable<FuncionarioDTO>>> GetProfessores()
         {
-            var professores = await _funcionarioService.GetProfessoresAtivosAsync();
+            var professores = await _FuncionarioService.GetProfessoresAtivosAsync();
             return Ok(professores);
         }
 
         [HttpGet("verificar-cpf/{cpf}")]
         public async Task<ActionResult<bool>> VerificarCpf(string cpf)
         {
-            var existe = await _funcionarioService.VerificarCpfExistenteAsync(cpf);
+            var existe = await _FuncionarioService.VerificarCpfExistenteAsync(cpf);
             return Ok(existe);
         }
 
         [HttpPost]
-        public async Task<ActionResult<FuncionarioDTO>> Create(FuncionarioCreateDTO funcionarioDto)
+        public async Task<ActionResult<FuncionarioDTO>> Create(FuncionarioCreateDTO FuncionarioDto)
         {
             try
             {
-                var novoFuncionario = await _funcionarioService.CreateAsync(funcionarioDto);
+                var novoFuncionario = await _FuncionarioService.CreateAsync(FuncionarioDto);
                 return CreatedAtAction(nameof(GetById), new { id = novoFuncionario.Id }, novoFuncionario);
             }
             catch (InvalidOperationException ex)
@@ -61,10 +61,10 @@ namespace Gestao_Escolar.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, FuncionarioUpdateDTO funcionarioDto)
+        public async Task<IActionResult> Update(int id, FuncionarioUpdateDTO FuncionarioDto)
         {
-            var funcionarioAtualizado = await _funcionarioService.UpdateAsync(id, funcionarioDto);
-            if (funcionarioAtualizado == null)
+            var FuncionarioAtualizado = await _FuncionarioService.UpdateAsync(id, FuncionarioDto);
+            if (FuncionarioAtualizado == null)
                 return NotFound();
 
             return NoContent();
@@ -73,7 +73,7 @@ namespace Gestao_Escolar.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var resultado = await _funcionarioService.DeleteAsync(id);
+            var resultado = await _FuncionarioService.DeleteAsync(id);
             if (!resultado)
                 return NotFound();
 

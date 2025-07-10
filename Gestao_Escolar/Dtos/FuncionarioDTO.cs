@@ -28,6 +28,8 @@ namespace Gestao_Escolar.DTOs
         public int? MateriaId { get; set; }
 
         public string? MateriaNome { get; set; }
+
+
     }
 
     public class FuncionarioCreateDTO
@@ -49,6 +51,10 @@ namespace Gestao_Escolar.DTOs
         [Required(ErrorMessage = "A data de admissão é obrigatória")]
         public DateTime DataAdimicao { get; set; }
 
+        [Required(ErrorMessage = "A senha é obrigatória")]
+        [StringLength(100, ErrorMessage = "A senha deve ter no máximo 100 caracteres")]
+        public string Senha { get; set; } = null!;
+
         public int? MateriaId { get; set; }
     }
 
@@ -68,6 +74,10 @@ namespace Gestao_Escolar.DTOs
         public DateTime DataAdmissao { get; set; }
 
         public DateTime? DataDesligamento { get; set; }
+
+
+        [StringLength(100, ErrorMessage = "A senha deve ter no máximo 100 caracteres")]
+        public string? Senha { get; set; }
 
         public int? MateriaId { get; set; }
     }

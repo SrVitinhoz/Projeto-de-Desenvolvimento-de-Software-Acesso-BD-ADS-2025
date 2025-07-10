@@ -2,52 +2,57 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Gestao_Escolar.Models;
 
-namespace Gestao_Escolar.Models
-{
-    public class Funcionario
+
+    namespace Gestao_Escolar.Models
     {
-        [Key]
-        public int Id { get; set; }
+        public class Funcionario
+        {
+            [Key]
+            public int Id { get; set; }
 
-        [Required]
-        [StringLength(100)]
-        public string Nome { get; set; } = null!;
+            [Required]
+            [StringLength(100)]
+            public string Nome { get; set; } = null!;
 
-        [Required]
-        [StringLength(14)]
-        public string Cpf { get; set; } = null!;
+            [Required]
+            [StringLength(14)]
+            public string Cpf { get; set; } = null!;
 
-        [Required]
-        public CargoFuncionario Cargo { get; set; }
+            [Required]
+            public CargoFuncionario Cargo { get; set; }
 
-        [Required]
-        public StatusFuncionario Status { get; set; }
+            [Required]
+            public StatusFuncionario Status { get; set; }
 
-        [Required]
-        public DateTime DataAdimicao { get; set; }
+            [Required]
+            public DateTime DataAdimicao { get; set; }
 
-        public DateTime? DataDesligamento { get; set; }
+            public DateTime? DataDesligamento { get; set; }
 
-        public int? MateriaId { get; set; }
+            [Required]
+            [StringLength(100)]
+            public string Senha { get; set; } = null!;
 
-        [ForeignKey("MateriaId")]
-        public virtual Materia? Materia { get; set; }
+            public int? MateriaId { get; set; }
 
-        // Propriedades de navegação
-        public virtual ICollection<Chamada>? Chamadas { get; set; }
-        public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
-        public virtual ICollection<TransferenciaTurma>? TransferenciasTurma { get; set; }
+            [ForeignKey("MateriaId")]
+            public virtual Materia? Materia { get; set; }
+
+
+            public virtual ICollection<Chamada>? Chamadas { get; set; }
+            public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
+            public virtual ICollection<TransferenciaTurma>? TransferenciasTurma { get; set; }
+        }
+
+        public enum CargoFuncionario
+        {
+            Professor,
+            Administrativo
+        }
+
+        public enum StatusFuncionario
+        {
+            Ativo,
+            Desligado
+        }
     }
-
-    public enum CargoFuncionario
-    {
-        Professor,
-        Administrativo
-    }
-
-    public enum StatusFuncionario
-    {
-        Ativo,
-        Desligado
-    }
-}

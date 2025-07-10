@@ -268,14 +268,24 @@
     "ContainingType": "Gestao_Escolar.Controllers.ChamadaController",
     "Method": "ConsultarAlunosParaChamada",
     "RelativePath": "Chamada/consultar-alunos",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "consultaDto",
-        "Type": "Gestao_Escolar.DTOs.ChamadaConsultaDTO",
-        "IsRequired": true
+        "Name": "turmaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "periodo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -692,7 +702,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "funcionarioDto",
+        "Name": "FuncionarioDto",
         "Type": "Gestao_Escolar.DTOs.FuncionarioCreateDTO",
         "IsRequired": true
       }
@@ -749,7 +759,7 @@
         "IsRequired": true
       },
       {
-        "Name": "funcionarioDto",
+        "Name": "FuncionarioDto",
         "Type": "Gestao_Escolar.DTOs.FuncionarioUpdateDTO",
         "IsRequired": true
       }

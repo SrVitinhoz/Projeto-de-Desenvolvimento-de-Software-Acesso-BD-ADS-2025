@@ -11,8 +11,8 @@ namespace Gestao_Escolar.Services
     public interface IHistoricoSonhosService : IBaseService<HistoricoSonhos, HistoricoSonhosDTO, HistoricoSonhosCreateDTO, HistoricoSonhosUpdateDTO>
     {
         Task<IEnumerable<HistoricoSonhosDTO>> GetByAlunoIdAsync(int alunoId);
-        Task<HistoricoSonhosDTO> AdicionarSonhosAsync(int alunoId, int valor, string motivo, int? funcionarioId);
-        Task<HistoricoSonhosDTO?> SubtrairSonhosAsync(int alunoId, int valor, string motivo, int? funcionarioId);
+        Task<HistoricoSonhosDTO> AdicionarSonhosAsync(int alunoId, int valor, string motivo, int? FuncionarioId);
+        Task<HistoricoSonhosDTO?> SubtrairSonhosAsync(int alunoId, int valor, string motivo, int? FuncionarioId);
     }
 
     public class HistoricoSonhosService : IHistoricoSonhosService
@@ -93,7 +93,7 @@ namespace Gestao_Escolar.Services
             return _mapper.Map<IEnumerable<HistoricoSonhosDTO>>(historicos);
         }
 
-        public async Task<HistoricoSonhosDTO> AdicionarSonhosAsync(int alunoId, int valor, string motivo, int? funcionarioId)
+        public async Task<HistoricoSonhosDTO> AdicionarSonhosAsync(int alunoId, int valor, string motivo, int? FuncionarioId)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
@@ -115,7 +115,7 @@ namespace Gestao_Escolar.Services
                     Tipo = TipoOperacaoSonhos.Adição,
                     Motivo = motivo,
                     Valor = valor,
-                    FuncionarioId = funcionarioId
+                    FuncionarioId = FuncionarioId
                 };
 
                 _context.HistoricoSonhos.Add(historico);
@@ -131,7 +131,7 @@ namespace Gestao_Escolar.Services
             }
         }
 
-        public async Task<HistoricoSonhosDTO?> SubtrairSonhosAsync(int alunoId, int valor, string motivo, int? funcionarioId)
+        public async Task<HistoricoSonhosDTO?> SubtrairSonhosAsync(int alunoId, int valor, string motivo, int? FuncionarioId)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
@@ -159,7 +159,7 @@ namespace Gestao_Escolar.Services
                     Tipo = TipoOperacaoSonhos.Subtração,
                     Motivo = motivo,
                     Valor = valor,
-                    FuncionarioId = funcionarioId
+                    FuncionarioId = FuncionarioId
                 };
 
                 _context.HistoricoSonhos.Add(historico);

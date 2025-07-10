@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Gestao_Escolar.Models;
 using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Models;
 
 namespace Gestao_Escolar
 {
@@ -22,7 +22,8 @@ namespace Gestao_Escolar
             CreateMap<Funcionario, FuncionarioDTO>()
                 .ForMember(dest => dest.MateriaNome, opt => opt.MapFrom(src => src.Materia != null ? src.Materia.Nome : null));
             CreateMap<FuncionarioCreateDTO, Funcionario>();
-            CreateMap<FuncionarioUpdateDTO, Funcionario>();
+            CreateMap<FuncionarioUpdateDTO, Funcionario>()
+                .ForMember(dest => dest.Senha, opt => opt.Ignore());
 
             // Aluno
             CreateMap<Aluno, AlunoDTO>()

@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Gestao_Escolar.Models;
+using Gestao_Escolar.DbContext;
 using Gestao_Escolar.DTOs;
+using Gestao_Escolar.Models;
 using Gestao_Escolar.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
-using Gestao_Escolar.DbContext;
 
 namespace Gestao_Escolar.Services
 {
@@ -27,18 +27,18 @@ namespace Gestao_Escolar.Services
 
         public async Task<IEnumerable<FuncionarioDTO>> GetAllAsync()
         {
-            var funcionarios = await _context.Funcionarios
+            var Funcionarios = await _context.Funcionarios
                 .Include(f => f.Materia)
                 .ToListAsync();
-            return _mapper.Map<IEnumerable<FuncionarioDTO>>(funcionarios);
+            return _mapper.Map<IEnumerable<FuncionarioDTO>>(Funcionarios);
         }
 
         public async Task<FuncionarioDTO?> GetByIdAsync(int id)
         {
-            var funcionario = await _context.Funcionarios
+            var Funcionario = await _context.Funcionarios
                 .Include(f => f.Materia)
                 .FirstOrDefaultAsync(f => f.Id == id);
-            return _mapper.Map<FuncionarioDTO>(funcionario);
+            return _mapper.Map<FuncionarioDTO>(Funcionario);
         }
 
         public async Task<FuncionarioDTO> CreateAsync(FuncionarioCreateDTO createDto)
@@ -49,39 +49,47 @@ namespace Gestao_Escolar.Services
                 throw new InvalidOperationException("CPF já cadastrado no sistema.");
             }
 
-            var funcionario = _mapper.Map<Funcionario>(createDto);
-            _context.Funcionarios.Add(funcionario);
+            var Funcionario = _mapper.Map<Funcionario>(createDto);
+            _context.Funcionarios.Add(Funcionario);
             await _context.SaveChangesAsync();
-            return _mapper.Map<FuncionarioDTO>(funcionario);
+            return _mapper.Map<FuncionarioDTO>(Funcionario);
         }
 
         public async Task<FuncionarioDTO?> UpdateAsync(int id, FuncionarioUpdateDTO updateDto)
         {
-            var funcionario = await _context.Funcionarios.FindAsync(id);
-            if (funcionario == null) return null;
+            var Funcionario = await _context.Funcionarios.FindAsync(id);
+            if (Funcionario == null) return null;
 
-            _mapper.Map(updateDto, funcionario);
+            // Mapear os campos básicos
+            _mapper.Map(updateDto, Funcionario);
+
+            // Se a senha foi informada, atualizar
+            if (!string.IsNullOrEmpty(updateDto.Senha))
+            {
+                Funcionario.Senha = updateDto.Senha;
+            }
+
             await _context.SaveChangesAsync();
-            return _mapper.Map<FuncionarioDTO>(funcionario);
+            return _mapper.Map<FuncionarioDTO>(Funcionario);
         }
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var funcionario = await _context.Funcionarios.FindAsync(id);
-            if (funcionario == null) return false;
+            var Funcionario = await _context.Funcionarios.FindAsync(id);
+            if (Funcionario == null) return false;
 
-            _context.Funcionarios.Remove(funcionario);
+            _context.Funcionarios.Remove(Funcionario);
             await _context.SaveChangesAsync();
             return true;
         }
 
         public async Task<IEnumerable<FuncionarioDTO>> FindAsync(Expression<Func<Funcionario, bool>> predicate)
         {
-            var funcionarios = await _context.Funcionarios
+            var Funcionarios = await _context.Funcionarios
                 .Include(f => f.Materia)
                 .Where(predicate)
                 .ToListAsync();
-            return _mapper.Map<IEnumerable<FuncionarioDTO>>(funcionarios);
+            return _mapper.Map<IEnumerable<FuncionarioDTO>>(Funcionarios);
         }
 
         public async Task<IEnumerable<FuncionarioDTO>> GetProfessoresAtivosAsync()

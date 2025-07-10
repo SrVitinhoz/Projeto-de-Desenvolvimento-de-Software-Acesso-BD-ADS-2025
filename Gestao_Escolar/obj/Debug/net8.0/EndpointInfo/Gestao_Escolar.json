@@ -470,29 +470,35 @@
       }
     },
     "/Chamada/consultar-alunos": {
-      "post": {
+      "get": {
         "tags": [
           "Chamada"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ChamadaConsultaDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ChamadaConsultaDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ChamadaConsultaDTO"
-              }
+        "parameters": [
+          {
+            "name": "turmaId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "periodo",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PeriodoTurma"
+            }
+          },
+          {
+            "name": "data",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -3015,33 +3021,6 @@
         },
         "additionalProperties": false
       },
-      "ChamadaConsultaDTO": {
-        "required": [
-          "data",
-          "funcionarioId",
-          "periodo",
-          "turmaId"
-        ],
-        "type": "object",
-        "properties": {
-          "turmaId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "periodo": {
-            "$ref": "#/components/schemas/PeriodoTurma"
-          },
-          "funcionarioId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "data": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
       "ChamadaCreateDTO": {
         "required": [
           "data",
@@ -3310,6 +3289,7 @@
           "cpf",
           "dataAdimicao",
           "nome",
+          "senha",
           "status"
         ],
         "type": "object",
@@ -3335,6 +3315,11 @@
           "dataAdimicao": {
             "type": "string",
             "format": "date-time"
+          },
+          "senha": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
           },
           "materiaId": {
             "type": "integer",
@@ -3426,6 +3411,12 @@
           "dataDesligamento": {
             "type": "string",
             "format": "date-time",
+            "nullable": true
+          },
+          "senha": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
             "nullable": true
           },
           "materiaId": {

@@ -33,9 +33,7 @@ namespace Gestao_Escolar.Controllers
                 return NotFound();
 
             return Ok(chamada);
-        }     
-
-        
+        }
 
         [HttpPost]
         public async Task<ActionResult<ChamadaDTO>> Create(ChamadaCreateDTO chamadaDto)
@@ -43,7 +41,6 @@ namespace Gestao_Escolar.Controllers
             var novaChamada = await _chamadaService.CreateAsync(chamadaDto);
             return CreatedAtAction(nameof(GetById), new { id = novaChamada.Id }, novaChamada);
         }
-
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, ChamadaUpdateDTO chamadaDto)
@@ -65,12 +62,21 @@ namespace Gestao_Escolar.Controllers
             return NoContent();
         }
 
-        [HttpPost("consultar-alunos")]
+        [HttpGet("consultar-alunos")]
         public async Task<ActionResult<ChamadaListaAlunosDTO>> ConsultarAlunosParaChamada(
-    [FromBody] ChamadaConsultaDTO consultaDto)
+            [FromQuery] int turmaId,
+            [FromQuery] PeriodoTurma periodo,
+            [FromQuery] DateTime data)
         {
             try
             {
+                var consultaDto = new ChamadaConsultaDTO
+                {
+                    TurmaId = turmaId,
+                    Periodo = periodo,
+                    Data = data
+                };
+
                 var resultado = await _chamadaService.ConsultarAlunosParaChamadaAsync(consultaDto);
 
                 if (resultado == null)
@@ -86,7 +92,7 @@ namespace Gestao_Escolar.Controllers
 
         [HttpPost("salvar-chamada-completa")]
         public async Task<ActionResult<ChamadaDTO>> SalvarChamadaCompleta(
-    [FromBody] SalvarChamadaDTO salvarDto)
+            [FromBody] SalvarChamadaDTO salvarDto)
         {
             try
             {
@@ -103,12 +109,11 @@ namespace Gestao_Escolar.Controllers
             }
         }
 
-
         [HttpGet("verificar-existencia")]
         public async Task<ActionResult<bool>> VerificarExistenciaChamada(
-    int turmaId,
-    PeriodoTurma periodo,
-    DateTime data)
+            [FromQuery] int turmaId,
+            [FromQuery] PeriodoTurma periodo,
+            [FromQuery] DateTime data)
         {
             try
             {
@@ -121,12 +126,10 @@ namespace Gestao_Escolar.Controllers
             }
         }
     }
+
     public class ChamadaCompletaDTO
     {
         public ChamadaCreateDTO Chamada { get; set; } = null!;
         public List<ChamadaAlunoCreateDTO> Presencas { get; set; } = null!;
     }
-
-
-
 }

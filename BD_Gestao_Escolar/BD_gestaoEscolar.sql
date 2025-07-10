@@ -22,6 +22,7 @@ CREATE TABLE Funcionario (
   data_adimicao DATETIME NOT NULL,
   data_desligamento DATETIME,
   materia_id INT,
+  senha VARCHAR(100),
   FOREIGN KEY (materia_id) REFERENCES Materia(id)
 );
 
@@ -102,16 +103,5 @@ CREATE TABLE TransferenciaTurma (
   FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (turma_origem_id) REFERENCES Turma(id),
   FOREIGN KEY (turma_destino_id) REFERENCES Turma(id),
-  FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
-);
-
-CREATE TABLE Matricula (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  aluno_id INT NOT NULL,
-  data DATETIME NOT NULL,
-  status ENUM('ativa', 'desligada', 'inativa') NOT NULL,
-  descricao VARCHAR(255) NOT NULL,
-  funcionario_id INT,
-  FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
 );

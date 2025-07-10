@@ -139,10 +139,10 @@ namespace Gestao_Escolar.Services
             if (turma == null) return null;
 
             // Buscar funcionário
-            var funcionario = await _context.Funcionarios
+            var Funcionario = await _context.Funcionarios
                 .FirstOrDefaultAsync(f => f.Id == consultaDto.FuncionarioId);
 
-            if (funcionario == null) return null;
+            if (Funcionario == null) return null;
 
             // Verificar se já existe chamada
             var chamadaExistente = await _context.Chamadas
@@ -159,8 +159,8 @@ namespace Gestao_Escolar.Services
                 TurmaId = turma.Id,
                 TurmaNome = turma.Nome,
                 Periodo = turma.Periodo,
-                FuncionarioId = funcionario.Id,
-                FuncionarioNome = funcionario.Nome, // Assumindo que Funcionario tem propriedade Nome
+                FuncionarioId = Funcionario.Id,
+                FuncionarioNome = Funcionario.Nome, // Assumindo que Funcionario tem propriedade Nome
                 Data = consultaDto.Data,
                 JaExisteChamada = chamadaExistente != null
             };

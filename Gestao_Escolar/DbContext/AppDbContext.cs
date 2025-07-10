@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Gestao_Escolar.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
-using Gestao_Escolar.Models;
 
 namespace Gestao_Escolar.DbContext
 {
