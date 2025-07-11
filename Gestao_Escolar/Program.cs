@@ -38,13 +38,15 @@ builder.Services.AddScoped<IHistoricoSonhosService, HistoricoSonhosService>();
 builder.Services.AddScoped<ITransferenciaTurmaService, TransferenciaTurmaService>();
 builder.Services.AddScoped<IParticipacaoEventoService, ParticipacaoEventoService>();
 
+// CONFIGURAÇÃO CORS CORRIGIDA
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(
-        policy =>
-        {
-            policy.WithOrigins("*").AllowAnyHeader();
-        });
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("*") // Permite qualquer origem
+              .AllowAnyHeader()  // Permite qualquer header
+              .AllowAnyMethod(); // IMPORTANTE: Permite qualquer método HTTP (GET, POST, PUT, DELETE, etc.)
+    });
 });
 
 var app = builder.Build();
