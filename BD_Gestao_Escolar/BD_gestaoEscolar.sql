@@ -105,6 +105,3 @@ CREATE TABLE TransferenciaTurma (
   FOREIGN KEY (turma_destino_id) REFERENCES Turma(id),
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
 );
-
-ALTER TABLE Funcionario 
-CHANGE COLUMN data_adimicao data_adimissao DATETIME NOT NULL;
