@@ -21,7 +21,7 @@ namespace Gestao_Escolar.DTOs
         public string Status { get; set; } = null!;
 
         [Required(ErrorMessage = "A data de admissão é obrigatória")]
-        public DateTime DataAdmissao { get; set; }
+        public DateTime DataAdimissao { get; set; }
 
         public DateTime? DataDesligamento { get; set; }
 
@@ -49,7 +49,7 @@ namespace Gestao_Escolar.DTOs
         public string Status { get; set; } = null!;
 
         [Required(ErrorMessage = "A data de admissão é obrigatória")]
-        public DateTime DataAdimicao { get; set; }
+        public DateTime DataAdimissao { get; set; }
 
         [Required(ErrorMessage = "A senha é obrigatória")]
         [StringLength(100, ErrorMessage = "A senha deve ter no máximo 100 caracteres")]
@@ -71,7 +71,7 @@ namespace Gestao_Escolar.DTOs
         public string Status { get; set; } = null!;
 
         [Required(ErrorMessage = "A data de admissão é obrigatória")]
-        public DateTime DataAdmissao { get; set; }
+        public DateTime DataAdimissao { get; set; }
 
         public DateTime? DataDesligamento { get; set; }
 

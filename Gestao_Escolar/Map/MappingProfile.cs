@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
-using Gestao_Escolar.DTOs;
 using Gestao_Escolar.Models;
+using Gestao_Escolar.DTOs;
+using System;
 
 namespace Gestao_Escolar
 {
@@ -25,9 +26,21 @@ namespace Gestao_Escolar
             CreateMap<FuncionarioUpdateDTO, Funcionario>()
                 .ForMember(dest => dest.Senha, opt => opt.Ignore());
 
-            // Aluno
+            // Aluno - MAPEAMENTO CORRIGIDO
             CreateMap<Aluno, AlunoDTO>()
-                .ForMember(dest => dest.TurmaNome, opt => opt.MapFrom(src => src.Turma != null ? src.Turma.Nome : null));
+                .ForMember(dest => dest.TurmaNome, opt => opt.MapFrom(src => src.Turma != null ? src.Turma.Nome : null))
+                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => src.StatusMatricula.ToString()))
+                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => src.Periodo.ToString()));
+
+            CreateMap<AlunoCreateDTO, Aluno>()
+                .ForMember(dest => dest.SaldoSonhos, opt => opt.MapFrom(src => 0)) // Valor padrão
+                .ForMember(dest => dest.NumMatricula, opt => opt.Ignore()) // Será gerado automaticamente
+                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => Enum.Parse<StatusMatricula>(src.StatusMatricula)))
+                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => Enum.Parse<PeriodoTurma>(src.Periodo)));
+
+            CreateMap<AlunoUpdateDTO, Aluno>()
+                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => Enum.Parse<StatusMatricula>(src.StatusMatricula)))
+                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => Enum.Parse<PeriodoTurma>(src.Periodo)));
 
             // Evento
             CreateMap<Evento, EventoDTO>();

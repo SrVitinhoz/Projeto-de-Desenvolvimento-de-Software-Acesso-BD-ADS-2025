@@ -45,6 +45,7 @@ namespace Gestao_Escolar.Services
         {
             var aluno = _mapper.Map<Aluno>(createDto);
 
+            
             int ultimoNumMatricula = 0;
             if (await _context.Alunos.AnyAsync())
             {
@@ -52,10 +53,18 @@ namespace Gestao_Escolar.Services
             }
             aluno.NumMatricula = ultimoNumMatricula + 1;
 
+            
+            aluno.SaldoSonhos = 0;
+
             _context.Alunos.Add(aluno);
             await _context.SaveChangesAsync();
 
-            return _mapper.Map<AlunoDTO>(aluno);
+            
+            var alunoCompleto = await _context.Alunos
+                .Include(a => a.Turma)
+                .FirstOrDefaultAsync(a => a.Id == aluno.Id);
+
+            return _mapper.Map<AlunoDTO>(alunoCompleto);
         }
 
         public async Task<AlunoDTO?> UpdateAsync(int id, AlunoUpdateDTO updateDto)

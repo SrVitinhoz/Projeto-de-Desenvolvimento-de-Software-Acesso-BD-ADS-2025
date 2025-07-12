@@ -19,7 +19,7 @@ CREATE TABLE Funcionario (
   cpf VARCHAR(14) NOT NULL UNIQUE,
   cargo ENUM('professor', 'administrativo') NOT NULL,
   status ENUM('ativo', 'desligado') NOT NULL,
-  data_adimicao DATETIME NOT NULL,
+  data_adimissao DATETIME NOT NULL,
   data_desligamento DATETIME,
   materia_id INT,
   senha VARCHAR(100),
@@ -105,3 +105,6 @@ CREATE TABLE TransferenciaTurma (
   FOREIGN KEY (turma_destino_id) REFERENCES Turma(id),
   FOREIGN KEY (funcionario_id) REFERENCES Funcionario(id)
 );
+
+ALTER TABLE Funcionario 
+CHANGE COLUMN data_adimicao data_adimissao DATETIME NOT NULL;

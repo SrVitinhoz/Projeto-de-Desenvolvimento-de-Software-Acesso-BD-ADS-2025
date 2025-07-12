@@ -5,28 +5,26 @@ using Gestao_Escolar;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+ https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Confi conexão com o banco de dados
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-//criar um perfil de mapeamento específico
-/*builder.Services.AddAutoMapper(typeof(MappingProfile));*/
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
-    .UseSnakeCaseNamingConvention() // Adiciona a convenção de nomenclatura snake_case
+    .UseSnakeCaseNamingConvention() 
     );
 
-// Registrar serviços
+
 builder.Services.AddScoped<ITurmaService, TurmaService>();
 builder.Services.AddScoped<IMateriaService, MateriaService>();
 builder.Services.AddScoped<IFuncionarioService, FuncionarioService>();
@@ -38,20 +36,20 @@ builder.Services.AddScoped<IHistoricoSonhosService, HistoricoSonhosService>();
 builder.Services.AddScoped<ITransferenciaTurmaService, TransferenciaTurmaService>();
 builder.Services.AddScoped<IParticipacaoEventoService, ParticipacaoEventoService>();
 
-// CONFIGURAÇÃO CORS CORRIGIDA
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("*") // Permite qualquer origem
-              .AllowAnyHeader()  // Permite qualquer header
-              .AllowAnyMethod(); // IMPORTANTE: Permite qualquer método HTTP (GET, POST, PUT, DELETE, etc.)
+        policy.WithOrigins("*") 
+              .AllowAnyHeader() 
+              .AllowAnyMethod(); 
     });
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

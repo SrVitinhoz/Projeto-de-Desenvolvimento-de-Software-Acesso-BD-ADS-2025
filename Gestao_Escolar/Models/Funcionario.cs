@@ -25,7 +25,7 @@ using Gestao_Escolar.Models;
             public StatusFuncionario Status { get; set; }
 
             [Required]
-            public DateTime DataAdimicao { get; set; }
+            public DateTime DataAdimissao { get; set; }
 
             public DateTime? DataDesligamento { get; set; }
 

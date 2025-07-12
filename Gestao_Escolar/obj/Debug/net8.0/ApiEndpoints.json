@@ -110,27 +110,6 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
-    "Method": "AtualizarSaldoSonhos",
-    "RelativePath": "Aluno/{id}/saldo-sonhos",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "valor",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Gestao_Escolar.Controllers.AlunoController",
     "Method": "GetByTurma",
     "RelativePath": "Aluno/turma/{turmaId}",
     "HttpMethod": "GET",

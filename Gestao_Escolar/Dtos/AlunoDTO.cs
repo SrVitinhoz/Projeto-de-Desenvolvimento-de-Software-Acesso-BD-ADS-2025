@@ -22,6 +22,8 @@ namespace Gestao_Escolar.DTOs
 
         public int SaldoSonhos { get; set; }
 
+        public int NumMatricula { get; set; }
+
         [Required(ErrorMessage = "O período é obrigatório")]
         public string Periodo { get; set; } = null!;
     }
@@ -42,6 +44,7 @@ namespace Gestao_Escolar.DTOs
 
         [Required(ErrorMessage = "O período é obrigatório")]
         public string Periodo { get; set; } = null!;
+
     }
 
     public class AlunoUpdateDTO

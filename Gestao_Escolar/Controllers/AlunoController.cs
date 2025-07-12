@@ -65,15 +65,5 @@ namespace Gestao_Escolar.Controllers
 
             return NoContent();
         }
-
-        [HttpPatch("{id}/saldo-sonhos")]
-        public async Task<IActionResult> AtualizarSaldoSonhos(int id, [FromBody] int valor)
-        {
-            var resultado = await _alunoService.AtualizarSaldoSonhosAsync(id, valor);
-            if (!resultado)
-                return NotFound();
-
-            return NoContent();
-        }
     }
 }
