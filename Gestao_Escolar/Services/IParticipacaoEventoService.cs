@@ -10,9 +10,11 @@ namespace Gestao_Escolar.Services
 {
     public interface IParticipacaoEventoService : IBaseService<ParticipacaoEvento, ParticipacaoEventoDTO, ParticipacaoEventoCreateDTO, ParticipacaoEventoUpdateDTO>
     {
+        Task<bool> CancelarParticipacaoAsync(int participacaoId);
         Task<IEnumerable<ParticipacaoEventoDTO>> GetByEventoIdAsync(int eventoId);
         Task<IEnumerable<ParticipacaoEventoDTO>> GetByAlunoIdAsync(int alunoId);
         Task<bool> RegistrarParticipacaoAsync(int eventoId, int alunoId);
+
     }
 
     public class ParticipacaoEventoService : IParticipacaoEventoService
@@ -51,12 +53,60 @@ namespace Gestao_Escolar.Services
 
         public async Task<ParticipacaoEventoDTO> CreateAsync(ParticipacaoEventoCreateDTO createDto)
         {
-            var participacao = _mapper.Map<ParticipacaoEvento>(createDto);
-         
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                // Buscar evento e aluno
+                var evento = await _context.Eventos.FindAsync(createDto.EventoId);
+                var aluno = await _context.Alunos.FindAsync(createDto.AlunoId);
 
-            _context.ParticipacaoEventos.Add(participacao);
-            await _context.SaveChangesAsync();
-            return _mapper.Map<ParticipacaoEventoDTO>(participacao);
+                if (evento == null || aluno == null)
+                {
+                    throw new InvalidOperationException("Evento ou aluno não encontrado.");
+                }
+
+                // VERIFICAR SE ALUNO TEM SALDO SUFICIENTE
+                if (aluno.SaldoSonhos < evento.ValorSonhos)
+                {
+                    throw new InvalidOperationException($"Saldo insuficiente. Necessário: {evento.ValorSonhos} sonhos. Disponível: {aluno.SaldoSonhos} sonhos.");
+                }
+
+                // Verificar se já existe participação
+                var participacaoExistente = await _context.ParticipacaoEventos
+                    .FirstOrDefaultAsync(p => p.EventoId == createDto.EventoId && p.AlunoId == createDto.AlunoId);
+
+                if (participacaoExistente != null)
+                {
+                    throw new InvalidOperationException("Aluno já está inscrito neste evento.");
+                }
+
+                // Criar participação
+                var participacao = _mapper.Map<ParticipacaoEvento>(createDto);
+                _context.ParticipacaoEventos.Add(participacao);
+
+                // DESCONTAR SONHOS DO ALUNO E REGISTRAR NO HISTÓRICO
+                await _historicoSonhosService.SubtrairSonhosAsync(
+                    createDto.AlunoId,
+                    evento.ValorSonhos,
+                    $"Inscrição no evento: {evento.Nome}",
+                    null);
+
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                // Retornar com dados completos
+                var participacaoCompleta = await _context.ParticipacaoEventos
+                    .Include(p => p.Aluno)
+                    .Include(p => p.Evento)
+                    .FirstOrDefaultAsync(p => p.Id == participacao.Id);
+
+                return _mapper.Map<ParticipacaoEventoDTO>(participacaoCompleta);
+            }
+            catch
+            {
+                await transaction.RollbackAsync();
+                throw;
+            }
         }
 
         public async Task<ParticipacaoEventoDTO?> UpdateAsync(int id, ParticipacaoEventoUpdateDTO updateDto)
@@ -113,9 +163,12 @@ namespace Gestao_Escolar.Services
             try
             {
                 var evento = await _context.Eventos.FindAsync(eventoId);
-                var aluno = await _context.Alunos.Include(a => a.Turma).FirstOrDefaultAsync(a => a.Id == alunoId);
+                var aluno = await _context.Alunos.FindAsync(alunoId);
 
                 if (evento == null || aluno == null) return false;
+
+                // VERIFICAR SE ALUNO TEM SALDO SUFICIENTE
+                if (aluno.SaldoSonhos < evento.ValorSonhos) return false;
 
                 // Verificar se já existe participação
                 var participacaoExistente = await _context.ParticipacaoEventos
@@ -136,14 +189,55 @@ namespace Gestao_Escolar.Services
                         Participou = true
                     };
                     _context.ParticipacaoEventos.Add(participacao);
+
+                    // ✅ CORRIGIDO: SUBTRAIR sonhos (não adicionar!)
+                    var resultado = await _historicoSonhosService.SubtrairSonhosAsync(
+                        alunoId,
+                        evento.ValorSonhos,
+                        $"Participação no evento: {evento.Nome}",
+                        null);
+
+                    // Verificar se a subtração foi bem-sucedida
+                    if (resultado == null)
+                    {
+                        await transaction.RollbackAsync();
+                        return false; // Saldo insuficiente
+                    }
                 }
 
-                // Adicionar sonhos ao aluno e registrar no histórico
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+                return true;
+            }
+            catch
+            {
+                await transaction.RollbackAsync();
+                return false;
+            }
+        }
+
+        // No ParticipacaoEventoService
+        public async Task<bool> CancelarParticipacaoAsync(int participacaoId)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                var participacao = await _context.ParticipacaoEventos
+                    .Include(p => p.Evento)
+                    .Include(p => p.Aluno)
+                    .FirstOrDefaultAsync(p => p.Id == participacaoId);
+
+                if (participacao == null) return false;
+
+                // Devolver sonhos ao aluno
                 await _historicoSonhosService.AdicionarSonhosAsync(
-                    alunoId,
-                    evento.ValorSonhos,
-                    $"Participação no evento: {evento.Nome}",
+                    participacao.AlunoId,
+                    participacao.Evento!.ValorSonhos,
+                    $"Cancelamento da participação no evento: {participacao.Evento.Nome}",
                     null);
+
+                // Remover participação
+                _context.ParticipacaoEventos.Remove(participacao);
 
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();

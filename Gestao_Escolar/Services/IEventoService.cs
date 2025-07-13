@@ -99,7 +99,7 @@ namespace Gestao_Escolar.Services
                 _context.ParticipacaoEventos.Add(participacao);
 
                 // Atualizar saldo de sonhos do aluno
-                aluno.SaldoSonhos += evento.ValorSonhos;
+                aluno.SaldoSonhos -= evento.ValorSonhos;
 
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();

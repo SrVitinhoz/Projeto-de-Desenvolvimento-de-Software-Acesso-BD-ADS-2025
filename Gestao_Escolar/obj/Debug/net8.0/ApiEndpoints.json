@@ -1260,6 +1260,22 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
+    "Method": "CancelarParticipacao",
+    "RelativePath": "ParticipacaoEvento/cancelar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestao_Escolar.Controllers.ParticipacaoEventoController",
     "Method": "GetByEvento",
     "RelativePath": "ParticipacaoEvento/evento/{eventoId}",
     "HttpMethod": "GET",
