@@ -70,24 +70,14 @@ namespace Gestao_Escolar.Services
             return _mapper.Map<IEnumerable<TurmaDTO>>(turmas);
         }
 
-        /*public async Task<IEnumerable<TurmaDTO>> GetTurmasAtivasByPeriodoAsync(string periodo)
-        {
-            var turmas = await _context.Turmas
-                .Where(t => t.Status == StatusTurma.Ativo && t.Periodo.ToString() == periodo)
-                .ToListAsync();
-            return _mapper.Map<IEnumerable<TurmaDTO>>(turmas);
-        }*/
+
 
         public async Task<IEnumerable<TurmaDTO>> GetTurmasAtivasByPeriodoAsync(string periodo)
         {
-            // Tenta converter a string 'periodo' para o enum PeriodoTurma
+
             if (!Enum.TryParse<PeriodoTurma>(periodo, true, out PeriodoTurma periodoEnum))
             {
-                // Se a string não for um valor válido do enum, você pode:
-                // 1. Lançar uma exceção (ex: ArgumentException)
-                // 2. Retornar uma lista vazia
-                // 3. Logar o erro
-                // Por simplicidade, vamos retornar uma lista vazia aqui.
+               
                 return new List<TurmaDTO>();
             }
 

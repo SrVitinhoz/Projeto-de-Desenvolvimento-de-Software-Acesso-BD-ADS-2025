@@ -26,7 +26,6 @@ namespace Gestao_Escolar.Models
         [Required]
         public StatusEvento Status { get; set; }
 
-        // Propriedades de navegação
         public virtual ICollection<ParticipacaoEvento>? ParticipacaoEventos { get; set; }
     }
 

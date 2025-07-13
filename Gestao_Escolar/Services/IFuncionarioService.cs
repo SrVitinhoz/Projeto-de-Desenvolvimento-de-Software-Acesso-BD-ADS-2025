@@ -43,7 +43,7 @@ namespace Gestao_Escolar.Services
 
         public async Task<FuncionarioDTO> CreateAsync(FuncionarioCreateDTO createDto)
         {
-            // Verificar se CPF já existe
+
             if (await VerificarCpfExistenteAsync(createDto.Cpf))
             {
                 throw new InvalidOperationException("CPF já cadastrado no sistema.");
@@ -60,10 +60,10 @@ namespace Gestao_Escolar.Services
             var Funcionario = await _context.Funcionarios.FindAsync(id);
             if (Funcionario == null) return null;
 
-            // Mapear os campos básicos
+
             _mapper.Map(updateDto, Funcionario);
 
-            // Se a senha foi informada, atualizar
+
             if (!string.IsNullOrEmpty(updateDto.Senha))
             {
                 Funcionario.Senha = updateDto.Senha;

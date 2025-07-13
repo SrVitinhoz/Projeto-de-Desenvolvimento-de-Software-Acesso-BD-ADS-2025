@@ -104,10 +104,9 @@ namespace Gestao_Escolar.Services
                     throw new InvalidOperationException("Aluno não encontrado.");
                 }
 
-                // Adicionar ao saldo
                 aluno.SaldoSonhos += valor;
 
-                // Registrar no histórico
+
                 var historico = new HistoricoSonhos
                 {
                     AlunoId = alunoId,
@@ -142,16 +141,16 @@ namespace Gestao_Escolar.Services
                     throw new InvalidOperationException("Aluno não encontrado.");
                 }
 
-                // Verificar se tem saldo suficiente
+
                 if (aluno.SaldoSonhos < valor)
                 {
-                    return null; // Saldo insuficiente
+                    return null; 
                 }
 
-                // Subtrair do saldo
+
                 aluno.SaldoSonhos -= valor;
 
-                // Registrar no histórico
+
                 var historico = new HistoricoSonhos
                 {
                     AlunoId = alunoId,

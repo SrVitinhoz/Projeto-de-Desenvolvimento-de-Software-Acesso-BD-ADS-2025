@@ -13,7 +13,7 @@ namespace Gestao_Escolar.Services
         Task<IEnumerable<ChamadaDTO>> GetChamadasByTurmaDataAsync(int turmaId, DateTime data);
         Task<ChamadaDTO?> RegistrarChamadaCompletaAsync(ChamadaCreateDTO chamadaDto, List<ChamadaAlunoCreateDTO> presencas);
 
-        // NOVOS MÉTODOS
+
         Task<ChamadaListaAlunosDTO?> ConsultarAlunosParaChamadaAsync(ChamadaConsultaDTO consultaDto);
         Task<ChamadaDTO?> SalvarChamadaCompletaAsync(SalvarChamadaDTO salvarDto);
         Task<bool> VerificarExistenciaChamadaAsync(int turmaId, PeriodoTurma periodo, DateTime data);
@@ -105,12 +105,12 @@ namespace Gestao_Escolar.Services
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                // Criar a chamada
+
                 var chamada = _mapper.Map<Chamada>(chamadaDto);
                 _context.Chamadas.Add(chamada);
                 await _context.SaveChangesAsync();
 
-                // Registrar presenças
+
                 foreach (var presenca in presencas)
                 {
                     presenca.ChamadaId = chamada.Id;
@@ -131,20 +131,20 @@ namespace Gestao_Escolar.Services
 
         public async Task<ChamadaListaAlunosDTO?> ConsultarAlunosParaChamadaAsync(ChamadaConsultaDTO consultaDto)
         {
-            // Buscar turma e alunos
+
             var turma = await _context.Turmas
                 .Include(t => t.Alunos.Where(a => a.StatusMatricula == StatusMatricula.Ativo && a.Periodo == consultaDto.Periodo))
                 .FirstOrDefaultAsync(t => t.Id == consultaDto.TurmaId && t.Periodo == consultaDto.Periodo);
 
             if (turma == null) return null;
 
-            // Buscar funcionário
+
             var Funcionario = await _context.Funcionarios
                 .FirstOrDefaultAsync(f => f.Id == consultaDto.FuncionarioId);
 
             if (Funcionario == null) return null;
 
-            // Verificar se já existe chamada
+
             var chamadaExistente = await _context.Chamadas
                 .Include(c => c.ChamadasAluno)
                 .ThenInclude(ca => ca.Aluno)
@@ -160,15 +160,15 @@ namespace Gestao_Escolar.Services
                 TurmaNome = turma.Nome,
                 Periodo = turma.Periodo,
                 FuncionarioId = Funcionario.Id,
-                FuncionarioNome = Funcionario.Nome, // Assumindo que Funcionario tem propriedade Nome
+                FuncionarioNome = Funcionario.Nome, 
                 Data = consultaDto.Data,
                 JaExisteChamada = chamadaExistente != null
             };
 
-            // Mapear alunos
+
             if (chamadaExistente != null)
             {
-                // Chamada já existe - carregar dados existentes
+
                 resultado.Alunos = chamadaExistente.ChamadasAluno.Select(ca => new AlunoPresencaDTO
                 {
                     AlunoId = ca.AlunoId,
@@ -180,14 +180,14 @@ namespace Gestao_Escolar.Services
             }
             else
             {
-                // Nova chamada - carregar alunos da turma
+
                 resultado.Alunos = turma.Alunos
                     .Where(a => a.StatusMatricula == StatusMatricula.Ativo)
                     .Select(a => new AlunoPresencaDTO
                     {
                         AlunoId = a.Id,
                         NomeAluno = a.Nome,
-                        Status = StatusPresenca.Presente, // Default
+                        Status = StatusPresenca.Presente, 
                         Observacao = null,
                         ChamadaAlunoId = null
                     }).ToList();
@@ -205,25 +205,25 @@ namespace Gestao_Escolar.Services
 
                 if (salvarDto.ChamadaId.HasValue)
                 {
-                    // Atualizar chamada existente
+
                     chamada = await _context.Chamadas
                         .Include(c => c.ChamadasAluno)
                         .FirstOrDefaultAsync(c => c.Id == salvarDto.ChamadaId.Value);
 
                     if (chamada == null) return null;
 
-                    // Atualizar dados da chamada
+
                     chamada.Data = salvarDto.Data;
                     chamada.Periodo = salvarDto.Periodo;
                     chamada.FuncionarioId = salvarDto.FuncionarioId;
                     chamada.MateriaId = salvarDto.MateriaId;
 
-                    // Remover registros antigos de ChamadaAluno
+
                     _context.ChamadasAluno.RemoveRange(chamada.ChamadasAluno);
                 }
                 else
                 {
-                    // Criar nova chamada
+
                     chamada = new Chamada
                     {
                         TurmaId = salvarDto.TurmaId,
@@ -238,7 +238,7 @@ namespace Gestao_Escolar.Services
 
                 await _context.SaveChangesAsync();
 
-                // Adicionar novos registros de ChamadaAluno
+
                 foreach (var aluno in salvarDto.Alunos)
                 {
                     var chamadaAluno = new ChamadaAluno
@@ -254,7 +254,7 @@ namespace Gestao_Escolar.Services
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();
 
-                // Retornar DTO da chamada
+
                 var chamadaCompleta = await _context.Chamadas
                     .Include(c => c.Funcionario)
                     .Include(c => c.Turma)

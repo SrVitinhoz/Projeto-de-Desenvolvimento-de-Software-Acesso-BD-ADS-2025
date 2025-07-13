@@ -16,7 +16,7 @@ namespace Gestao_Escolar.Models
         [Required]
         public StatusMateria Status { get; set; }
 
-        // Propriedades de navegação
+
         public virtual ICollection<Funcionario>? Funcionarios { get; set; }
         public virtual ICollection<Chamada>? Chamadas { get; set; }
     }

@@ -57,8 +57,6 @@ namespace Gestao_Escolar.DTOs
     }
 
 
-    // Adicionar ao final do arquivo ChamadaDTO.cs
-
     public class ChamadaConsultaDTO
     {
         [Required(ErrorMessage = "O ID da turma é obrigatório")]

@@ -23,7 +23,7 @@ namespace Gestao_Escolar.DbContext
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configurar nomes das tabelas para corresponder ao banco de dados
+
             modelBuilder.Entity<Turma>().ToTable("Turma");
             modelBuilder.Entity<Materia>().ToTable("Materia");
             modelBuilder.Entity<Funcionario>().ToTable("Funcionario");
@@ -36,24 +36,22 @@ namespace Gestao_Escolar.DbContext
             modelBuilder.Entity<TransferenciaTurma>().ToTable("TransferenciaTurma");
 
 
-            // Configuração de relacionamentos e restrições
 
-            // Configuração para Funcionario
             modelBuilder.Entity<Funcionario>()
                 .HasIndex(f => f.Cpf)
                 .IsUnique();
 
-            // Configuração para Aluno
+
             modelBuilder.Entity<Aluno>()
                 .Property(a => a.SaldoSonhos)
                 .HasDefaultValue(0);
 
-            // Configuração para ParticipacaoEvento
+
             modelBuilder.Entity<ParticipacaoEvento>()
                 .Property(p => p.Participou)
                 .HasDefaultValue(false);
 
-            // Configuração para TransferenciaTurma (relacionamentos múltiplos com Turma)
+
             modelBuilder.Entity<TransferenciaTurma>()
                 .HasOne(t => t.TurmaOrigem)
                 .WithMany(t => t.TransferenciasOrigem)
@@ -66,7 +64,6 @@ namespace Gestao_Escolar.DbContext
                 .HasForeignKey(t => t.TurmaDestinoId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Configuração de conversão de enums para strings no banco
             modelBuilder.Entity<Turma>()
                 .Property(t => t.Status)
                 .HasConversion<string>();

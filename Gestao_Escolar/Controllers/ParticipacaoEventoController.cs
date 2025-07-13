@@ -74,7 +74,6 @@ namespace Gestao_Escolar.Controllers
             return NoContent();
         }
 
-        // No Controller
         [HttpDelete("cancelar/{id}")]
         public async Task<IActionResult> CancelarParticipacao(int id)
         {

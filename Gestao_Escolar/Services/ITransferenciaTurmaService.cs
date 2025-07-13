@@ -110,7 +110,6 @@ namespace Gestao_Escolar.Services
                     throw new InvalidOperationException("Aluno não encontrado.");
                 }
 
-                // Registrar a transferência
                 var novaTransferencia = new TransferenciaTurma
                 {
                     AlunoId = transferencia.AlunoId,
@@ -122,7 +121,7 @@ namespace Gestao_Escolar.Services
 
                 _context.TransferenciasTurma.Add(novaTransferencia);
 
-                // Atualizar a turma do aluno
+
                 aluno.TurmaId = transferencia.TurmaDestinoId;
 
                 await _context.SaveChangesAsync();

@@ -18,7 +18,7 @@ namespace Gestao_Escolar.Models
         [Required]
         public PeriodoTurma Periodo { get; set; }
 
-        // Propriedades de navegação
+
         public virtual ICollection<Aluno>? Alunos { get; set; }
         public virtual ICollection<Chamada>? Chamadas { get; set; }
         public virtual ICollection<TransferenciaTurma>? TransferenciasOrigem { get; set; }
