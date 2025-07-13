@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -10,24 +14,20 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\dtos\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:dtos\\funcionariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|d:\\desktop\\projetos\\projeto-de-desenvolvimento-de-software-acesso-bd-ads-2025\\gestao_escolar\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6758943A-8B08-4A20-AD09-7CFACAA8A230}|Gestao_Escolar.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,87 +41,88 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAAIVAAAAAAAAAAAjwBIVAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-12T15:14:23.272Z",
+              "WhenOpened": "2025-07-13T03:01:02.755Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T15:14:19.099Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AlunoController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\AlunoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlunoController.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\AlunoController.cs",
-              "RelativeToolTip": "Controllers\\AlunoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T15:08:43.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Map\\MappingProfile.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
-              "RelativeToolTip": "Map\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T15:03:12.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlunoDTO.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\AlunoDTO.cs",
-              "RelativeDocumentMoniker": "Dtos\\AlunoDTO.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\AlunoDTO.cs",
-              "RelativeToolTip": "Dtos\\AlunoDTO.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwDgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:51:08.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAlunoService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IAlunoService.cs",
-              "RelativeDocumentMoniker": "Services\\IAlunoService.cs",
-              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Services\\IAlunoService.cs",
-              "RelativeToolTip": "Services\\IAlunoService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAUwC8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:51:05.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Aluno.cs",
               "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Aluno.cs",
               "RelativeDocumentMoniker": "Models\\Aluno.cs",
               "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Aluno.cs",
               "RelativeToolTip": "Models\\Aluno.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:51:03.966Z"
+              "WhenOpened": "2025-07-13T02:53:57.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunoDTO.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\AlunoDTO.cs",
+              "RelativeDocumentMoniker": "Dtos\\AlunoDTO.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\AlunoDTO.cs",
+              "RelativeToolTip": "Dtos\\AlunoDTO.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T02:53:49.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T22:11:21.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Map\\MappingProfile.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Map\\MappingProfile.cs",
+              "RelativeToolTip": "Map\\MappingProfile.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T22:11:08.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Models\\Funcionario.cs",
+              "RelativeToolTip": "Models\\Funcionario.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T22:09:32.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuncionarioDTO.cs",
+              "DocumentMoniker": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\FuncionarioDTO.cs",
+              "RelativeDocumentMoniker": "Dtos\\FuncionarioDTO.cs",
+              "ToolTip": "D:\\Desktop\\Projetos\\Projeto-de-Desenvolvimento-de-Software-Acesso-BD-ADS-2025\\Gestao_Escolar\\Dtos\\FuncionarioDTO.cs",
+              "RelativeToolTip": "Dtos\\FuncionarioDTO.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T22:08:36.78Z"
             }
           ]
         }

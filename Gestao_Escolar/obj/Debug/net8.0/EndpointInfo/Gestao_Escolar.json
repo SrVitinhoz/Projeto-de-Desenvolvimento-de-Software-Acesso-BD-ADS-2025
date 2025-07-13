@@ -3246,7 +3246,7 @@
         "required": [
           "cargo",
           "cpf",
-          "dataAdimissao",
+          "dataAdmissao",
           "nome",
           "senha",
           "status"
@@ -3271,7 +3271,7 @@
             "minLength": 1,
             "type": "string"
           },
-          "dataAdimissao": {
+          "dataAdmissao": {
             "type": "string",
             "format": "date-time"
           },
@@ -3292,7 +3292,7 @@
         "required": [
           "cargo",
           "cpf",
-          "dataAdimissao",
+          "dataAdmissao",
           "nome",
           "status"
         ],
@@ -3320,7 +3320,7 @@
             "minLength": 1,
             "type": "string"
           },
-          "dataAdimissao": {
+          "dataAdmissao": {
             "type": "string",
             "format": "date-time"
           },
@@ -3344,7 +3344,7 @@
       "FuncionarioUpdateDTO": {
         "required": [
           "cargo",
-          "dataAdimissao",
+          "dataAdmissao",
           "nome",
           "status"
         ],
@@ -3363,7 +3363,7 @@
             "minLength": 1,
             "type": "string"
           },
-          "dataAdimissao": {
+          "dataAdmissao": {
             "type": "string",
             "format": "date-time"
           },

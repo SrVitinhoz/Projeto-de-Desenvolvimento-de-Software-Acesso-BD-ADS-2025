@@ -26,21 +26,25 @@ namespace Gestao_Escolar
             CreateMap<FuncionarioUpdateDTO, Funcionario>()
                 .ForMember(dest => dest.Senha, opt => opt.Ignore());
 
-            // Aluno - MAPEAMENTO CORRIGIDO
+            /// Aluno - MAPEAMENTO CORRIGIDO COM TOLERÂNCIA A CASE
             CreateMap<Aluno, AlunoDTO>()
                 .ForMember(dest => dest.TurmaNome, opt => opt.MapFrom(src => src.Turma != null ? src.Turma.Nome : null))
                 .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => src.StatusMatricula.ToString()))
                 .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => src.Periodo.ToString()));
 
             CreateMap<AlunoCreateDTO, Aluno>()
-                .ForMember(dest => dest.SaldoSonhos, opt => opt.MapFrom(src => 0)) // Valor padrão
-                .ForMember(dest => dest.NumMatricula, opt => opt.Ignore()) // Será gerado automaticamente
-                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => Enum.Parse<StatusMatricula>(src.StatusMatricula)))
-                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => Enum.Parse<PeriodoTurma>(src.Periodo)));
+                .ForMember(dest => dest.SaldoSonhos, opt => opt.MapFrom(src => 0))
+                .ForMember(dest => dest.NumMatricula, opt => opt.Ignore())
+                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src =>
+                    ParseStatusMatricula(src.StatusMatricula)))
+                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src =>
+                    ParsePeriodoTurma(src.Periodo)));
 
             CreateMap<AlunoUpdateDTO, Aluno>()
-                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src => Enum.Parse<StatusMatricula>(src.StatusMatricula)))
-                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src => Enum.Parse<PeriodoTurma>(src.Periodo)));
+                .ForMember(dest => dest.StatusMatricula, opt => opt.MapFrom(src =>
+                    ParseStatusMatricula(src.StatusMatricula)))
+                .ForMember(dest => dest.Periodo, opt => opt.MapFrom(src =>
+                    ParsePeriodoTurma(src.Periodo)));
 
             // Evento
             CreateMap<Evento, EventoDTO>();
@@ -84,6 +88,32 @@ namespace Gestao_Escolar
             CreateMap<TransferenciaTurmaCreateDTO, TransferenciaTurma>();
             CreateMap<TransferenciaTurmaUpdateDTO, TransferenciaTurma>();
 
+
+
+
+        }
+
+        private static StatusMatricula ParseStatusMatricula(string status)
+        {
+            return status?.ToLower() switch
+            {
+                "ativo" => StatusMatricula.Ativo,
+                "ativa" => StatusMatricula.Ativo, // Aceita variação
+                "desligado" => StatusMatricula.Desligado,
+                "inativo" => StatusMatricula.Inativa,
+                "inativa" => StatusMatricula.Inativa, // Aceita variação
+                _ => StatusMatricula.Ativo // Valor padrão
+            };
+        }
+
+        private static PeriodoTurma ParsePeriodoTurma(string periodo)
+        {
+            return periodo?.ToLower() switch
+            {
+                "matutino" => PeriodoTurma.Matutino,
+                "vespertino" => PeriodoTurma.Vespertino,
+                _ => PeriodoTurma.Matutino // Valor padrão
+            };
         }
     }
 }

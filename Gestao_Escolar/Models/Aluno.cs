@@ -34,9 +34,6 @@ namespace Gestao_Escolar.Models
         [Required]
         public PeriodoTurma Periodo { get; set; }
 
-        //[json ignore]
-
-        // Propriedades de navegação
         public virtual ICollection<ParticipacaoEvento>? ParticipacaoEventos { get; set; }
         public virtual ICollection<ChamadaAluno>? ChamadasAluno { get; set; }
         public virtual ICollection<HistoricoSonhos>? HistoricoSonhos { get; set; }
@@ -47,6 +44,6 @@ namespace Gestao_Escolar.Models
     {
         Ativo,
         Desligado,
-        Inativo
+        Inativa
     }
 }
