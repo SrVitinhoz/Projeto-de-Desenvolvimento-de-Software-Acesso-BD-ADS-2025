@@ -763,6 +763,32 @@
   },
   {
     "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
+    "Method": "GetLogin",
+    "RelativePath": "Funcionario/login/{cpf}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Gestao_Escolar.DTOs.FuncionarioLoginDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gestao_Escolar.Controllers.FuncionarioController",
     "Method": "GetProfessores",
     "RelativePath": "Funcionario/professores",
     "HttpMethod": "GET",

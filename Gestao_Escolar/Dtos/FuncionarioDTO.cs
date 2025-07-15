@@ -81,4 +81,10 @@ namespace Gestao_Escolar.DTOs
 
         public int? MateriaId { get; set; }
     }
+
+    public class FuncionarioLoginDTO
+    {
+        public string Cpf { get; set; } = null!;
+        public string Senha { get; set; } = null!;
+    }
 }

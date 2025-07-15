@@ -12,6 +12,8 @@ namespace Gestao_Escolar.Services
     {
         Task<IEnumerable<FuncionarioDTO>> GetProfessoresAtivosAsync();
         Task<bool> VerificarCpfExistenteAsync(string cpf);
+
+        Task<FuncionarioLoginDTO?> GetLoginByCpfAsync(string cpf);
     }
 
     public class FuncionarioService : IFuncionarioService
@@ -104,6 +106,20 @@ namespace Gestao_Escolar.Services
         public async Task<bool> VerificarCpfExistenteAsync(string cpf)
         {
             return await _context.Funcionarios.AnyAsync(f => f.Cpf == cpf);
+        }
+
+        public async Task<FuncionarioLoginDTO?> GetLoginByCpfAsync(string cpf)
+        {
+            var funcionario = await _context.Funcionarios
+                .Where(f => f.Cpf == cpf)
+                .Select(f => new FuncionarioLoginDTO
+                {
+                    Cpf = f.Cpf,
+                    Senha = f.Senha
+                })
+                .FirstOrDefaultAsync();
+
+            return funcionario;
         }
     }
 }

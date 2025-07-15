@@ -79,5 +79,15 @@ namespace Gestao_Escolar.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("login/{cpf}")]
+        public async Task<ActionResult<FuncionarioLoginDTO>> GetLogin(string cpf)
+        {
+            var loginInfo = await _FuncionarioService.GetLoginByCpfAsync(cpf);
+            if (loginInfo == null)
+                return NotFound("Funcionário não encontrado");
+
+            return Ok(loginInfo);
+        }
     }
 }
