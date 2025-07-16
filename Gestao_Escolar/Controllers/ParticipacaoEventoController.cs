@@ -46,12 +46,6 @@ namespace Gestao_Escolar.Controllers
             return Ok(participacoes);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<ParticipacaoEventoDTO>> Create(ParticipacaoEventoCreateDTO participacaoDto)
-        {
-            var novaParticipacao = await _participacaoEventoService.CreateAsync(participacaoDto);
-            return CreatedAtAction(nameof(GetById), new { id = novaParticipacao.Id }, novaParticipacao);
-        }
 
 
         [HttpPut("{id}")]
@@ -74,15 +68,6 @@ namespace Gestao_Escolar.Controllers
             return NoContent();
         }
 
-        [HttpDelete("cancelar/{id}")]
-        public async Task<IActionResult> CancelarParticipacao(int id)
-        {
-            var resultado = await _participacaoEventoService.CancelarParticipacaoAsync(id);
-            if (!resultado)
-                return NotFound();
-
-            return NoContent();
-        }
 
     }
 

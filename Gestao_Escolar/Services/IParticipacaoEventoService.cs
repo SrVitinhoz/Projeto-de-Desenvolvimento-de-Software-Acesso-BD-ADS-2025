@@ -10,7 +10,6 @@ namespace Gestao_Escolar.Services
 {
     public interface IParticipacaoEventoService : IBaseService<ParticipacaoEvento, ParticipacaoEventoDTO, ParticipacaoEventoCreateDTO, ParticipacaoEventoUpdateDTO>
     {
-        Task<bool> CancelarParticipacaoAsync(int participacaoId);
         Task<IEnumerable<ParticipacaoEventoDTO>> GetByEventoIdAsync(int eventoId);
         Task<IEnumerable<ParticipacaoEventoDTO>> GetByAlunoIdAsync(int alunoId);
         Task<bool> RegistrarParticipacaoAsync(int eventoId, int alunoId);
@@ -203,40 +202,6 @@ namespace Gestao_Escolar.Services
                         return false; 
                     }
                 }
-
-                await _context.SaveChangesAsync();
-                await transaction.CommitAsync();
-                return true;
-            }
-            catch
-            {
-                await transaction.RollbackAsync();
-                return false;
-            }
-        }
-
-
-        public async Task<bool> CancelarParticipacaoAsync(int participacaoId)
-        {
-            using var transaction = await _context.Database.BeginTransactionAsync();
-            try
-            {
-                var participacao = await _context.ParticipacaoEventos
-                    .Include(p => p.Evento)
-                    .Include(p => p.Aluno)
-                    .FirstOrDefaultAsync(p => p.Id == participacaoId);
-
-                if (participacao == null) return false;
-
-
-                await _historicoSonhosService.AdicionarSonhosAsync(
-                    participacao.AlunoId,
-                    participacao.Evento!.ValorSonhos,
-                    $"Cancelamento da participação no evento: {participacao.Evento.Nome}",
-                    null);
-
-
-                _context.ParticipacaoEventos.Remove(participacao);
 
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();

@@ -39,13 +39,6 @@ namespace Gestao_Escolar.Controllers
             return Ok(transferencias);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<TransferenciaTurmaDTO>> Create(TransferenciaTurmaCreateDTO transferenciaDto)
-        {
-            var novaTransferencia = await _transferenciaTurmaService.CreateAsync(transferenciaDto);
-            return CreatedAtAction(nameof(GetById), new { id = novaTransferencia.Id }, novaTransferencia);
-        }
-
         [HttpPost("transferir")]
         public async Task<ActionResult<TransferenciaTurmaDTO>> RealizarTransferencia(
             [FromBody] TransferenciaTurmaCreateDTO transferenciaDto)
